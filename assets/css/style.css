@@ -3791,7 +3791,9 @@ hr {
   position: absolute;
   z-index: 1;
   left: 80px;
-  bottom: 0;
+  bottom:-65px;
+ border-top: 10px solid #030e4e;
+border-right: 10px solid #030e4e; 
 }
 
 @media (max-width: 575px) {
@@ -3807,6 +3809,7 @@ hr {
   top: 0;
   right: 0;
   z-index: 0;
+
 }
 
 @media (max-width: 575px) {
