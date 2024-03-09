@@ -4592,6 +4592,8 @@ border-right: 10px solid #030e4e;
 
 /* line 23, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_team.scss */
 .team-area .single-team .team-img img {
+  height: 500px;
+  object-fit: cover;
   width: 100%;
   transform: scale(1);
   transition: all 0.6s ease-out 0s;
