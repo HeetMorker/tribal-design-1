@@ -167,7 +167,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/vol1.png" alt="">
+                                <img src="assets/img/gallery/vol1.JPG" alt="">
                                 <!-- Blog Social -->
                                 <ul class="team-social">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -176,8 +176,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Bruce Roberts</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="instructor.html">Saurav Ganeshbhai Vasava</a></h3>
+                                <p>Committee Member</p>
                             </div>
                         </div>
                     </div>
@@ -193,8 +193,9 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Robart Rechard</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="instructor.html">Meenaben Gavjibhai Vasava
+                                </a></h3>
+                                <p>Committee Member</p>
                             </div>
                         </div>
                     </div>
@@ -210,8 +211,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Robart Rechard</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="instructor.html">Jyotishbhai Ramanbhai Chaudhri</a></h3>
+                                <p>Clerk</p>
                             </div>
                         </div>
                     </div>
@@ -227,8 +228,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Brendon Tailor</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="instructor.html">Manilal Kathudiyabhai Vasava</a></h3>
+                                <p>Committee Member</p>
                             </div>
                         </div>
                     </div>
@@ -244,8 +245,42 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Brendon Tailor</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="instructor.html">Ashokbhai Gumansingh Chaudhry</a></h3>
+                                <p>Advisor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/gallery/vol8.png" alt="">
+                                <!-- Blog Social -->
+                                <ul class="team-social">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="team-caption">
+                                <h3><a href="instructor.html">Mrs.Radhikaben C. Vasava</a></h3>
+                                <p>Committee Member</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/gallery/vol7.png" alt="">
+                                <!-- Blog Social -->
+                                <ul class="team-social">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="team-caption">
+                                <h3><a href="instructor.html">Mrs. Babitaben Dipilbhai Vasava</a></h3>
+                                <p>Committee Member</p>
                             </div>
                         </div>
                     </div>
@@ -261,8 +296,8 @@
                                 </ul>
                             </div>
                             <div class="team-caption">
-                                <h3><a href="instructor.html">Walshr Hasgt</a></h3>
-                                <p>Volunteer leader</p>
+                                <h3><a href="instructor.html">Dilipbhai K. Vasava</a></h3>
+                                <p>Committee Member</p>
                             </div>
                         </div>
                     </div>
