@@ -8364,3 +8364,12 @@ del {
 	width: 66.66%;
 	z-index: 2;
 }
+
+.cat-icon .yoga-icon svg{
+  width: 45px;
+  fill: white;
+  margin-bottom: 15px;
+}
+.slider-content:hover .cat-icon .yoga-icon svg{
+  fill: #030E4E;
+}

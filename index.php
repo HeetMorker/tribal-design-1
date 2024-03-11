@@ -2,6 +2,7 @@
     <?php
     include "header.php";
     ?>
+
     <main>
         <!-- slider Area Start-->
         <div class="slider-area">
