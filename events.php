@@ -63,6 +63,7 @@ include "header.php";
             </div>
         </div>
     </div> -->
+
     <!-- Count Down End -->
       <!-- Our Cases Start -->
       <div class="our-cases-area pb-160">
@@ -90,62 +91,25 @@ include "header.php";
                         </div>
                         <div class="grid" id="container">
                             <div class="grid-sizer"></div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/De addication/6.jpeg"
-                                    alt="" /></div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/De addication/7.jpeg" /></div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/yoga/1.jpeg" />
-                            </div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/yoga/3.jpeg" />
-                            </div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/De addication/8.jpeg" />
-                            </div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/yoga/4.jpeg" />
-                            </div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/yoga/4.jpeg" />
-                            </div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/yoga/5.jpeg" />
-                            </div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/De addication/7.jpeg" />
-                            </div>
-                            <div class="grid-item others"><img
-                                    src="assets/img/De addication/8.jpeg" />
-                            </div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/De addication/9.jpeg" />
-                            </div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/De addication/10.jpeg" />
-                            </div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/De addication/11.jpeg" />
-                            </div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/De addication/12.jpeg"
-                                    alt="" /></div>
-                            <div class="grid-item others"><img
-                                    src="assets/img/De addication/13.jpeg" />
-                            </div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/De addication/6.jpeg" />
-                            </div>
-                            <div class="grid-item others"><img
-                                    src="assets/img/other/14.jpeg" />
-                            </div>
-                            <div class="grid-item cow"><img
-                                    src="assets/img/other/15.jpeg"
-                                    alt="" /></div>
-                            <div class="grid-item yoga"><img
-                                    src="assets/img/other/16.jpeg" />
-                            </div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/6.jpeg" alt="" /></div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/7.jpeg" alt=""  /></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/1.jpeg" alt="" /></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/3.jpeg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/8.jpeg"  alt="" /></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/4.jpeg"  alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/4.jpeg" alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/5.jpeg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/7.jpeg"  alt=""/></div>
+                            <div class="grid-item others"><img src="assets/img/De addication/8.jpeg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/9.jpeg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/10.jpeg"  alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/De addication/11.jpeg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/12.jpeg" alt="" /></div>
+                            <div class="grid-item others"><img src="assets/img/De addication/13.jpeg"  alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/De addication/6.jpeg"  alt=""/></div>
+                            <div class="grid-item others"><img src="assets/img/other/14.jpeg"  alt="" /></div>
+                            <div class="grid-item cow"><img src="assets/img/other/15.jpeg" alt="" /></div>
+                            <div class="grid-item yoga"><img src="assets/img/other/16.jpeg"  alt=""/></div>
                         </div>
                     </section>
                 </div>
