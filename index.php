@@ -13,10 +13,8 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
                                 <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".6s">Fields of <br> Compassion</h1>
-                                    <P data-animation="fadeInUp" data-delay=".8s">Join hands with us as we unite for a
-                                        cause that matters. Together, we're making a tangible difference, uplifting
-                                        communities and changing lives for the better.</P>
+                                    <h1 data-animation="fadeInUp" data-delay=".6s">Elevating Lives, Empowering Communities:<br>Together for Tribal Welfare</h1>
+                                    <P data-animation="fadeInUp" data-delay=".8s">Join hands with us as we stand united for the noble cause of tribal welfare, deaddiction, and sustainable development. Together, we're effecting real change, uplifting communities, and restoring hope and dignity to lives in need through initiatives such as organic farming, tree plantation, distribution of cows, computer training, blood donation camps, yoga training, pulse examination, examination guidance, and distribution of fertilizer and seed kits. Let's sow the seeds of progress and cultivate a brighter future together.</P>
                                     <!-- Hero-btn -->
                                     <div class="hero__btn">
                                         <a href="industries.html" class="btn hero-btn mb-10" data-animation="fadeInLeft"
@@ -24,7 +22,7 @@
                                         <a href="industries.html" class="cal-btn ml-15" data-animation="fadeInRight"
                                             data-delay="1.0s">
                                             <i class="flaticon-null"></i>
-                                            <p>+12 1325 41</p>
+                                            <p>+91 99098 39854</p>
                                         </a>
                                     </div>
                                 </div>
