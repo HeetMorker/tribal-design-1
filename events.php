@@ -93,10 +93,6 @@ include "header.php";
                             <div class="grid-sizer"></div>
                             <div class="grid-item cow"><img src="assets/img/De addication/6.jpeg" alt="" /></div>
                             <div class="grid-item cow"><img src="assets/img/De addication/7.jpeg" alt=""  /></div>
-                            <div class="grid-item yoga"><img src="assets/img/yoga/1.jpeg" alt="" /></div>
-                            <div class="grid-item yoga"><img src="assets/img/yoga/3.jpeg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/De addication/8.jpeg"  alt="" /></div>
-                            <div class="grid-item yoga"><img src="assets/img/yoga/4.jpeg"  alt=""/></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/4.jpeg" alt=""/></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/5.jpeg"  alt=""/></div>
                             <div class="grid-item cow"><img src="assets/img/De addication/7.jpeg"  alt=""/></div>
@@ -110,6 +106,10 @@ include "header.php";
                             <div class="grid-item others"><img src="assets/img/other/14.jpeg"  alt="" /></div>
                             <div class="grid-item cow"><img src="assets/img/other/15.jpeg" alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/other/16.jpeg"  alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/1.jpeg" alt="" /></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/3.jpeg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/De addication/8.jpeg"  alt="" /></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/4.jpeg"  alt=""/></div>
                         </div>
                     </section>
                 </div>
