@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css'>
+    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css'> -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- FONT FAMILY -->
     <link
@@ -38,7 +38,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-</head>
+
+    <!-- bootstrap -->
+
+
 
 <body>
     <!-- ? Preloader Start -->
@@ -83,13 +86,15 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="contact.php" class="btn header-btn">Donate</a>
+                                        <a href="#" class="btn header-btn"data-toggle="modal"
+                                        data-target="#exampleModalLong">Donate</a>
+
                                     </div>
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="registration.html" class="btn header-btn">Register</a>
+                                        <a href="registration.php " class="btn header-btn">Register</a>
                                     </div>
-                                    </div>
-                               
+                                </div>
+
                             </div>
                             <!-- Mobile Menu -->
                             <div class="col-12">
@@ -101,4 +106,48 @@
             </div>
         </div>
         <!-- Header End -->
+
+
     </header>
+
+
+    <!-- Modal -->
+    <div class="modal" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="stud-form" name="frm">
+                        <label class="form-label" for="name" id="name-label">Full Name</label>
+                        <input class="user-input" name="fname" id="name" type="text" placeholder="John Doe" required>
+
+                        <label class="form-label" for="email" id="email-label">Email-id</label>
+                        <input class="user-input" id="email" type="email" placeholder="jdoe@email.com" required>
+
+                        <label class="form-label" for="dropdown">Cause</label>
+                        <select id="dropdown" class="user-input">
+                            <option class="user-input" disabled selected>Select</option>
+                            <option class="user-input" value="Full-stack Devlopment">Full-stack Devlopment</option>
+                            <option class="user-input" value="Android">Android</option>
+                            <option class="user-input" value="Animation">Animation</option>
+                            <option class="user-input" value="Figma">Figma</option>
+                        </select>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save
+                        changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
