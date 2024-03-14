@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css'> -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.min.css'>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- FONT FAMILY -->
     <link
@@ -86,8 +86,8 @@
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="#" class="btn header-btn"data-toggle="modal"
-                                        data-target="#exampleModalLong">Donate</a>
+                                        <a href="#" class="btn btn-primary" data-toggle="modal"
+                                            data-target="#exampleModal">Donate</a>
 
                                     </div>
                                     <div class="header-right-btn d-none d-lg-block ml-20">
@@ -112,41 +112,39 @@
 
 
     <!-- Modal -->
-    <div class="modal" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title
-                    </h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form id="stud-form" name="frm">
-                        <label class="form-label" for="name" id="name-label">Full Name</label>
-                        <input class="user-input" name="fname" id="name" type="text" placeholder="John Doe" required>
-
-                        <label class="form-label" for="email" id="email-label">Email-id</label>
-                        <input class="user-input" id="email" type="email" placeholder="jdoe@email.com" required>
-
-                        <label class="form-label" for="dropdown">Cause</label>
-                        <select id="dropdown" class="user-input">
-                            <option class="user-input" disabled selected>Select</option>
-                            <option class="user-input" value="Full-stack Devlopment">Full-stack Devlopment</option>
-                            <option class="user-input" value="Android">Android</option>
-                            <option class="user-input" value="Animation">Animation</option>
-                            <option class="user-input" value="Figma">Figma</option>
-                        </select>
-
-
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                          
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1"
+                                placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save
-                        changes</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
         </div>

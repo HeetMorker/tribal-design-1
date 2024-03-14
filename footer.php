@@ -1,5 +1,5 @@
   <footer>
-        <div class="footer-wrapper section-bg2" data-background="assets/img/gallery/footer_bg.png">
+        <div class="footer-wrapper section-bg2" style="background-image: url(assets/img/gallery/footer_bg.png);">
             <!-- Footer Top-->
             <div class="footer-area footer-padding">
                 <div class="container">
@@ -254,7 +254,7 @@
     <!-- Date Picker -->
     <script src="./assets/js/gijgo.min.js"></script>
     <!-- Nice-select, sticky -->
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <!-- <script src="./assets/js/jquery.nice-select.min.js"></script> -->
     <script src="./assets/js/jquery.sticky.js"></script>
     <!-- Progress -->
     <script src="./assets/js/jquery.barfiller.js"></script>
