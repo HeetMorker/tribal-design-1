@@ -2514,16 +2514,20 @@ hr {
 
 /* line 670, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .preloader .preloader-img img {
-  max-width: 55px;
+  /* max-width: 500px;
+  height: 500px; */
 }
-
+.preloader-inner img{
+  width: 600px;
+  height: 600px ;
+}
 /* line 673, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .preloader .pere-text strong {
   font-weight: 800;
   color: #dca73a;
   text-transform: uppercase;
 }
-
+/* 
 @-webkit-keyframes zoom {
   0% {
     -webkit-transform: rotate(0deg);
@@ -2556,7 +2560,7 @@ hr {
     -o-transition: .6s;
     transition: .6s;
   }
-}
+} */
 
 /* line 713, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .slick-initialized .slick-slide {
@@ -8467,6 +8471,137 @@ del {
   width: 150px !important;
 }
 
-.menu-wrapper{
-  padding: 39px 19px;
+
+/* header top */
+.header-top-bar {
+  width: 100%;
+  left: 0;
+  z-index: 100;
+  transition: .3s;
 }
+
+.h-50px {
+  height: 50px !important;
+}
+
+/* loader css */
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Hide content initially */
+
+
+/* 
+#main-content {
+  display: none;
+}
+.hidden {
+  display: none;
+}
+.loader{
+ width: 500px; 
+}x
+#loader-video{
+  width: 500px;
+} */
+
+.loader{
+  width: 100%;
+  height: 100vh;
+  background-color:#030E4E ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader2{
+  top:0;
+  margin:0;
+  padding:0;
+  width:100%;
+  height:100%;
+  position:fixed;
+  overflow:hidden;
+  background-color:#070F45;
+  z-index: 1111111111;
+  }
+  .loader-icon{
+    position: absolute; 
+    top:25%; 
+    left:37%;
+    width: 500px;
+    z-index: 1111;
+  }
+  .logo{
+    width: 150px;
+  }
+  .p-header {
+    padding: 20px 0px;
+  }
+
+
+  .early {
+    color: white;
+    letter-spacing: 5px;
+    font-family: "DM Sans", sans-serif;;
+      animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
+  
+      animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  
+      animation-duration:1s;
+      animation-delay: 1.5s
+  }
+  .emp-name{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transform: scale(1.06);
+    transition: all 0.3s linear;
+  
+  }
+  .emp-img:hover .emp-name{
+    transform: scale(1.08) !important;
+    opacity: 0.7 !important;
+    /* transform: skewX(5deg); */
+  }
+  
+  .team-style-05:hover .emp-name{
+      transition: all 0.3s linear;
+    opacity: 0.7 !important;
+  }
+  ::placeholder{
+    color: white !important;
+  }
+  .date-p{
+    padding: 12px 5px 12px 0px;
+  }
+  
+  ::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+  }
+  
+  .emp-img-1 .emp-name{
+    transform: scale(1.7);
+  }
+  .emp-img-2 .emp-name{
+    transform: scale(1.3);
+  }
+ .m-10px{
+  margin-bottom: 10px !important;
+  margin-top: 10px !important;
+ }

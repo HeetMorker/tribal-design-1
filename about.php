@@ -1,5 +1,6 @@
 <?php
 include "header.php";
+
 ?>
     <main>
     <!--? Hero Start -->
@@ -52,6 +53,129 @@ include "header.php";
         </div>
     </section>
     <!-- About Law End-->
+
+
+
+    <div class="container">
+            <ul class="row ">
+                        <li class="col-md-6 mb-2">
+                            <div class="blog-box flex-wrap d-md-flex d-block flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="blog-image col-12"  >
+                                    <video controls height="300" >
+                                        <source src="assets/img/video/vid-4.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content col-12 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px ">Safety</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">Help children's survive the of covid.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="col-md-6 mb-2">
+                            <div class="blog-box flex-wrap d-md-flex d-block flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="blog-image col-12" >
+                                    <video controls >
+                                        <source src="assets/img/video/vid-3.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content col-12 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px">Safety</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">Help children's survive the of covid.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+
+
+                       <li class="col-md-6 mb-2">
+                            <div class="blog-box d-md-flex d-block flex-wrap flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="w-100">
+                                    <video controls >
+                                        <source src="assets/img/video/yoga-vdeo-4.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content w-100 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px">Lifestyle</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">World day against child labour help.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+                       <li class="col-md-6 mb-2">
+                            <div class="blog-box d-md-flex d-block flex-wrap flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="w-100">
+                                    <video controls >
+                                        <source src="assets/img/video/yoga-video-1.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content w-100 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px">Community</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">Climate change could be linked to poverty.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+                       <li class="col-md-6 mb-2">
+                            <div class="blog-box d-md-flex d-block flex-wrap flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="w-100">
+                                    <video controls >
+                                        <source src="assets/img/video/yoga-video-2.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content w-100 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px">Health</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">3 reasons learning first aid is useful.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+                       <li class="col-md-6 mb-2">
+                            <div class="blog-box d-md-flex d-block flex-wrap flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="w-100">
+                                    <video controls >
+                                        <source src="assets/img/video/yoga-video-3.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content w-100 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px">Health</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">3 reasons learning first aid is useful.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+                       <li class="col-md-6 mb-2">
+                            <div class="blog-box d-md-flex d-block flex-wrap flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="w-100">
+                                    <video controls >
+                                        <source src="assets/img/video/yoga-vdeo-4.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content w-100 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px">Health</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">3 reasons learning first aid is useful.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="col-md-6 mb-2">
+                            <div class="blog-box flex-wrap d-md-flex d-block flex-row h-100 border-radius-4px overflow-hidden box-shadow-extra-large">
+                                <div class="w-100 "  >
+                                    <video controls >
+                                        <source src="assets/img/video/vid-5.mp4"  type="video/mp4">
+                                      </video>
+                                </div>
+                                <div class="blog-content w-100 sm-w-100 pt-50px pb-40px ps-40px pe-40px xl-p-30px bg-white d-flex flex-column justify-content-center align-items-start last-paragraph-no-margin">
+                                    <a href="demo-charity-stories.html" class="btn btn-very-small btn-rounded btn-gradient-green-goldenrod-yellow ls-0px m-10px">Safety</a>
+                                    <a href="demo-charity-blog-single-simple.html" class="card-title text-dark-gray text-dark-gray-hover fw-500 mb-10px fs-19 alt-font ws-minus-3px">Help children's survive the of covid.</a>
+                                    <p>Lorem ipsum is simply text of the printing...</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+            </div>
 
     </main>
     <?php

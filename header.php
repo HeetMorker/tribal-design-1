@@ -44,41 +44,54 @@
 
 
 <body>
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
-                </div>
-            </div>
+    <!-- <div id="loader" class="loader"> -->
+        <div class="loader2">
+            <video class="loader-icon"  autoplay muted playsinline>
+                <source src="assets/img/video/WhatsApp Video 2024-03-15 at 6.00.32 PM (1).mp4" type="video/mp4">
+            </video>
         </div>
-    </div>
+
+    <div id="content" class="hidden">
+        <!-- Your dynamic content goes here -->
     <!-- Preloader Start -->
-    <header>
+    <header class="header-with-topbar">
+        <!-- Marquee for Header Top -->
+        <div class="header-top-bar top-bar-light disable-fixed ">
+                <div class="row h4 m-0" style=" background: rgb(3,14,78) !important;
+background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgba(0,212,255,1) 100%)!important;">
+                    <div class="col text-white  text-uppercase fw-500">
+                        <marquee behavior="scroll" direction="left" scrollamount="8">SHRI SHRI ADIVASI CHARITABLE TRUST
+                        </marquee>
+                    </div>
+                </div>
+
+        </div>
+
         <!-- Header Start -->
-        <div class="header-area">
-            <div class="main-header ">
-                <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
+        <div class="header-area ">
+            <div class="main-header">
+                <div class="header-bottom header-sticky">
+                    <div class="container-fluid p-header">
                         <div class="row align-items-center">
                             <!-- Logo -->
-                            <div class="col-xl-3 col-lg-3">
+                            <div class="col-xl-3 col-lg-3 d-flex justify-content-center 
+                            ">
                                 <div class="logo">
-                                    <a href="index.php"><img src="assets/img/logo/blue-logo.png" alt=""
-                                            class="img-fluid"></a>
+                                    <!-- <img src="assets/img/logo/logo.jpeg" alt=""
+                                            class="w-25"> -->
+                                    <a href="index.php">
+                                        <img src="assets/img/logo/big-logo.jpeg" alt=""></a>
                                 </div>
                             </div>
                             <div class="col-xl-9 col-lg-9">
-                                <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                                <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
                                         <nav>
                                             <ul id="navigation">
                                                 <li class="position-relative"><a href="index.php">Home</a></li>
                                                 <li class="position-relative"><a href="about.php">About</a></li>
-                                                <li class="position-relative"><a href="events.php">social events </a>
+                                                <li class="position-relative"><a href="events.php">Social Events</a>
                                                 </li>
                                                 <li class="position-relative"><a href="contact.php">Contact</a></li>
                                             </ul>
@@ -88,13 +101,11 @@
                                     <div class="header-right-btn d-none d-lg-block ml-20">
                                         <a href="#" class="btn btn-primary" data-toggle="modal"
                                             data-target="#exampleModal">Donate</a>
-
                                     </div>
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="registration.php " class="btn header-btn">Register</a>
+                                        <a href="registration.php" class="btn header-btn">Register</a>
                                     </div>
                                 </div>
-
                             </div>
                             <!-- Mobile Menu -->
                             <div class="col-12">
@@ -106,9 +117,8 @@
             </div>
         </div>
         <!-- Header End -->
-
-
     </header>
+
 
 
     <!-- Modal -->
@@ -128,7 +138,7 @@
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="Enter email">
-                          
+
                         </div>
                         <div class="form-group">
                             <label for="exampleInputPassword1">Password</label>
