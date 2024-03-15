@@ -20,23 +20,24 @@ include "header.php";
 
 
     <!--form Start-->
-    <section class="about-low-area section-padding2">
+    <section class="about-low-area section-padding2 ">
         <div class="container">
-            <form action="bootstrapform.php" method="post">
+            <form action="bootstrapform.php" class="register-form  " method="post" >
                 <div class="form-group">
-                    <label for="firstname">First Name</label>
-                    <input type="text" class="form-control form-control-lg" id="exampleInputfirstname" name="firstname">
+       
+                    <input type="text" class="form-control form-control-lg" id="exampleInputfirstname" name="firstname" placeholder=
+                    "First Name*">
                 </div>
                 <div class="form-group">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" class="form-control form-control-lg" id="exampleInputlastname" name="lastname">
+                   
+                    <input type="text" class="form-control form-control-lg" id="exampleInputlastname" name="lastname"  placeholder="Last Name*">
 
                     <div class="form-group">
-                        <label for="dob">Date of Birth</label>
+                     
                         <input type="date" id="dob" class="form-control form-control-lg" id="exampleInputlastname" required>
                     </div>
                     <div class="form-group">
-                        <label for="lastname">Gender</label>
+                 
                     </div>
                     <div class="form-check form-check-inline">
                         <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
@@ -130,6 +131,8 @@ include "header.php";
         </div>
     </section>
     <!-- form  End-->
+
+   
 
 </main>
 <?php

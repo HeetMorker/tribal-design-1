@@ -207,7 +207,7 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script>
     $('.tri').slick({
-        dots: false,
+        dots: true,
         margin: 20,
         arrows: false,
         autoplaySpeed: 1000,
@@ -284,9 +284,9 @@
 
 
     <script>
-$(window).load(function() {
-	$(".loader2").delay(3000).fadeOut("fast");
-});
+// $(window).load(function() {
+// 	$(".loader2").delay(3000).fadeOut("fast");
+// });
 </script>
 </body>
 

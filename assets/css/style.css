@@ -5,6 +5,7 @@
   background: #ffffff;
 }
 
+
 /* line 36, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_color.scss */
 .gray-bg {
   background: #f5f5f5;
@@ -8605,3 +8606,23 @@ del {
   margin-bottom: 10px !important;
   margin-top: 10px !important;
  }
+
+ .register-form{
+  background-color: #030E4E;
+  padding: 205px;
+ }
+ .form-group>input{
+  background-color: transparent;
+  color:white !important;
+  border: none;
+  border-bottom: 1px solid white !important;
+
+ }
+ .form-group>label{
+  color:white !important;
+ }
+
+
+.modal{
+  z-index: 11111111 !important;
+}
