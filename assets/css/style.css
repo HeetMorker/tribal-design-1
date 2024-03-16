@@ -8604,25 +8604,6 @@ del {
   margin-bottom: 10px !important;
   margin-top: 10px !important;
  }
-/* form */
- .register-form{
-  background-color: #030E4E;
-  padding: 205px;
- }
- .form-group>input{
-  background-color: transparent;
-  color:white !important;
-  border: none;
-  border-bottom: 1px solid white !important;
- 
- }
-
- .form-group>label{
-  color:white !important;
- }
- .register-form .form-group {
-  margin-bottom: 20px;
-}   
 .modal{
   z-index: 11111111 !important;
 }
