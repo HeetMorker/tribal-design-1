@@ -45,11 +45,11 @@
 
 <body>
     <!-- <div id="loader" class="loader"> -->
-        <!-- <div class="loader2">
+        <div class="loader2">
             <video class="loader-icon"  autoplay muted playsinline>
                 <source src="assets/img/video/WhatsApp Video 2024-03-15 at 6.00.32 PM (1).mp4" type="video/mp4">
             </video>
-        </div> -->
+        </div>
 
     <div id="content" class="hidden">
         <!-- Your dynamic content goes here -->
@@ -89,9 +89,10 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                             <ul id="navigation">
                                                 <li class="position-relative"><a href="index.php">Home</a></li>
                                                 <li class="position-relative"><a href="about.php">About</a></li>
-                                                <li class="position-relative"><a href="events.php">Social Events</a>
-                                                </li>
+                                                <li class="position-relative"><a href="events.php">Social Events</a> </li>
                                                 <li class="position-relative"><a href="contact.php">Contact</a></li>
+                                                <li class="position-relative"><a href="certificate.php">Certificates</a>
+                                                </li>
                                             </ul>
                                         </nav>
                                     </div>
