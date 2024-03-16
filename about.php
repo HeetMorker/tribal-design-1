@@ -3,7 +3,7 @@ include "header.php";
 
 ?>
     <main>
-    <!--? Hero Start -->
+    <!-- Hero Start -->
     <div class="slider-area2">
         <div class="slider-height2 d-flex align-items-center">
             <div class="container">

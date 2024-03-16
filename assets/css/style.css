@@ -8559,9 +8559,7 @@ del {
     letter-spacing: 5px;
     font-family: "DM Sans", sans-serif;;
       animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
-  
       animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
-  
       animation-duration:1s;
       animation-delay: 1.5s
   }
