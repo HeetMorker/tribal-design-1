@@ -95,7 +95,7 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                                 <li class="position-relative"><a href="events.php">Social Events</a>
                                                 </li>
                                                 <li class="position-relative"><a href="contact.php">Contact</a></li>
-                                                <li class="position-relative"><a href="certificates.php">Certificate</a></li>
+                                                <li class="position-relative"><a href="certificate.php">Certificate</a></li>
                                             </ul>
                                         </nav>
                                     </div>
