@@ -10,7 +10,7 @@ include "header.php";
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10">
-                    <div class="about-caption mb-50">
+                    <div class="about-caption ">
                         <!-- Section Tittle -->
                         <div class="section-tittle mb-35">
                             <span>About The Founder</span>
