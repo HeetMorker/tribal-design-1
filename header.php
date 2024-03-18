@@ -95,13 +95,13 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                                 <li class="position-relative"><a href="events.php">Social Events</a>
                                                 </li>
                                                 <li class="position-relative"><a href="contact.php">Contact</a></li>
+                                                <li class="position-relative"><a href="certificates.php">Certificate</a></li>
                                             </ul>
                                         </nav>
                                     </div>
                                     <!-- Header-btn -->
                                     <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="#" class="btn btn-primary" data-toggle="modal"
-                                            data-target="#exampleModal">Donate</a>
+                                        <a href="donate.php" class="btn btn-primary">Donate</a>
                                     </div>
                                     <div class="header-right-btn d-none d-lg-block ml-20">
                                         <a href="registration.php" class="btn btn-primary">Register</a>
