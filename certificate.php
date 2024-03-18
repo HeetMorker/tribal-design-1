@@ -20,26 +20,46 @@
     <!-- Our Cases Start -->
     <div class="our-cases-area pb-160">
         <div class="container">
-            <div class="row ">
+            <!-- <div class="row justify-content-center">
                 <div class="col-6">
-                    <div class="col-md-12 border border-dark">
+                    <img src="assets/img/certificate/cer1.jpg" alt="">
+                </div>
+                <div class="col-6">
+                      <img src="assets/img/certificate/cer3.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="assets/img/certificate/cer2.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="assets/img/certificate/Fcra_original.png" alt="">
+                </div>
+
+                
+            </div> -->
+            <div class="row ">
+                <div class="col-lg-6">
+                    <div class="border border-dark">
                         <img src="assets/img/certificate/cer1.jpg" alt="">
                     </div>
+                    <p class="certificate-description text-center">Certificate Of Registration-1</p> 
                 </div>
-                <div class="col-6">
-                    <div class="col-md-12 border border-dark">
+                <div class="col-lg-6">
+                    <div class="border border-dark">
                         <img src="assets/img/certificate/cer3.jpg" alt="">
                     </div>
+                    <p class="certificate-description text-center">Certificate Of Regisration-2</p>
                 </div>
-                <div class="col-6 mt-4">
-                    <div class="col-md-12 border border-dark">
-                        <img src="assets/img/certificate/cer2.png" alt="" class="img-responsive" width = "100%" >
+                <div class="col-lg-6 mt-4">
+                    <div class=" border border-dark h-1093">
+                        <img src="assets/img/certificate/cer2.png" alt="">
                     </div>
+                    <p class="certificate-description text-center">Certificate of The Center For Entrepreneurship Development</p>
                 </div>
-                <div class="col-6 mt-4">
-                    <div class="col-md-12 border border-dark">
+                <div class="col-lg-6 mt-4">
+                    <div class=" border border-dark h-1093">
                         <img src="assets/img/certificate/Fcra_original.png" alt="">
                     </div>
+                    <p class="certificate-description text-center">FCRA Certificate</p>
                 </div>
             </div>
         </div>

@@ -8527,3 +8527,18 @@ del {
   margin-top: 10px !important;
  }
 
+ .certificate-description {
+  color: #000 !important; /* Darker color */
+  font-size: 25px !important; /* Larger font size */
+  font-weight: bold !important;
+  margin-top: 10px !important; 
+}
+.h-1093{
+  height: 1093px;
+  overflow-y: scroll;}
+@media (max-width:992px) {
+  .h-1093{
+    height: auto;
+  }
+  
+}
