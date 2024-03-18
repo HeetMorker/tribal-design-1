@@ -30,12 +30,12 @@ include "header.php";
                             <div class="form-group col-md-6">
                                 <label for="exampleInputfirstname">First Name*</label>
                                 <input type="text" class="form-control" id="exampleInputfirstname" name="firstname"
-                                    placeholder="First Name" required>
+                                    placeholder="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="exampleInputlastname">Last Name*</label>
                                 <input type="text" class="form-control" id="exampleInputlastname" name="lastname"
-                                    placeholder="Last Name" required>
+                                    placeholder="" required>
                             </div>
                         </div>
                         <div class="form-row">

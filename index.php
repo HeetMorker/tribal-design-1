@@ -21,7 +21,7 @@
                                 <P data-animation="fadeInUp" data-delay=".8s">Join hands with us as we stand united for the noble cause of tribal welfare, deaddiction, and sustainable development. Together, we're effecting real change, uplifting communities, and restoring hope and dignity to lives in need through initiatives such as organic farming, tree plantation, distribution of cows, computer training, blood donation camps, yoga training, pulse examination, examination guidance, and distribution of fertilizer and seed kits. Let's sow the seeds of progress and cultivate a brighter future together.</P>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn">
-                                    <a href="industries.html" class="btn hero-btn mb-10" data-animation="fadeInLeft"
+                                    <a href="donate.php" class="btn hero-btn mb-10" data-animation="fadeInLeft"
                                         data-delay=".8s">Donate</a>
                                     <a href="industries.html" class="cal-btn ml-15" data-animation="fadeInRight"
                                         data-delay="1.0s">
@@ -282,7 +282,7 @@
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-3 col-md-4">
-                        <a href="#" class="btn white-btn f-right sm-left">Become A Volunteer</a>
+                        <a href="registration.php" class="btn white-btn f-right sm-left">Become A Volunteer</a>
                     </div>
                 </div>
             </div>

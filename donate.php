@@ -28,22 +28,22 @@ include "header.php";
     <!-- donation form strat -->
     <section class="about-low-area section-padding2">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center ">
                 <div class="col-12">
                     <h2 class="contact-title">Your Donation</h2>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 ">
                     <form action="bootstrapform.php" class="" method="post">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="exampleInputfirstname">First Name*</label>
                                 <input type="text" class="form-control" id="exampleInputfirstname" name="firstname"
-                                    placeholder="First Name" required>
+                                    placeholder="" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="exampleInputlastname">Last Name*</label>
                                 <input type="text" class="form-control" id="exampleInputlastname" name="lastname"
-                                    placeholder="Last Name" required>
+                                    placeholder="" required>
                             </div>
                         </div>
                         <div class="form-row">
@@ -85,12 +85,12 @@ include "header.php";
                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
                                 placeholder=" Enter Message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary" name="create">Donate Now</button>
+                        <button type="submit" class="btn btn-primary" name="create">Submit</button>
                     </form>
                 </div>
                 <div class="col-lg-6">
-                    <div class="dontate-img">
-                        <img src="assets/img/hero/donate.jpg" alt="" class="img-thumbnail  " >
+                    <div class="dontate-img mx-3">
+                        <img src="assets/img/hero/donate.jpg" alt="" class="img-thumbnail"  >
                     </div>
                 </div>
             </div>
