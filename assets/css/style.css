@@ -2688,8 +2688,8 @@ hr {
 
 /* line 778, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .testimonial-padding {
-  padding-top: 190px;
-  padding-bottom: 170px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2748,8 +2748,8 @@ hr {
 
 /* line 810, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .section-padding30 {
-  padding-top: 195px;
-  padding-bottom: 180px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2900,8 +2900,8 @@ hr {
 
 /* line 893, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .footer-padding {
-  padding-top: 160px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 0px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3538,7 +3538,7 @@ hr {
   background-size: cover;
   height: 750px;
 }
-.slick-track{
+.header-slider>.slick-list>.slick-track{ 
   height: 750px;
 }
 
@@ -3714,7 +3714,7 @@ hr {
   font-size: 16px;
   color: #64676c;
   line-height: 1.6;
-  margin-bottom: 43px;
+  margin-bottom: 20px;
   padding-right: 50px;
 }
 
@@ -3895,6 +3895,7 @@ border-right: 10px solid #030e4e;
   transition: 0.4s;
   position: relative;
   z-index: 1;
+  height: 500px;
 }
 
 @media (max-width: 575px) {
@@ -4067,7 +4068,7 @@ border-right: 10px solid #030e4e;
 }
 
 /* line 16, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_cases.scss */
-.our-cases-area .single-cases .cases-caption h3 a {
+.our-cases-area .single-cases .cases-caption h3  {
   font-size: 21px;
   font-weight: 800;
   line-height: 1.4;
@@ -4357,6 +4358,7 @@ border-right: 10px solid #030e4e;
   margin-bottom: 30px;
   display: inline-block;
   font-weight: 300;
+  border-radius: 70px;
 }
 
 /* line 61, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_testimonial.scss */
@@ -8382,6 +8384,90 @@ del {
 .slider-content:hover .cat-icon .yoga-icon svg{
   fill: #030E4E;
 }
+/* Model css */
+#title {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+#stud-form {
+  display: flex;
+  flex-direction: column;
+  border: 2px inset #000000;
+  border-radius: 10px;
+  box-shadow: -10px 10px 12px -2px #2f4a41;
+  /* background-color: #c3ddd4; */
+  padding: 0.5vw 5vw 2vw;
+
+}
+
+.form-label {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 2vh;
+  margin-left: 10px;
+}
+
+.form-label span {
+  font-variant: small-caps;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.user-input {
+  min-height: 5vh;
+  font-size: 1.1rem;
+  font-weight: 300;
+  border: 2px solid #265143;
+  border-radius: 15px;
+  padding: 0.2rem 0.5rem;
+}
+
+.radio-btn-holder,
+.checkbox-holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radio-btn-input,
+.checkbox-input {
+  width: 1.5rem;
+  margin: 0 1%;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+}
+
+#comment-label {
+  min-height: 30vh;
+}
+
+#submit {
+  width: 10vw;
+  height: 3vw;
+  font-size: 1rem;
+  margin: 4% 1% 0;
+  float: right;
+  border: 2px solid #265143;
+  border-radius: 15px;
+  background-color: #edf6f3;
+}
+
+#submit:hover {
+  background-color: #265143;
+  cursor: pointer;
+  font-weight: 500;
+  color: #edf6f3;
+}
+.table{
+  border: 2px inset #000000 !important;
+  border-radius: 10px !important;
+  box-shadow: -10px 10px 12px -2px #2f4a41;
+  padding: 0.5vw 5vw 2vw;
+}
 /* form */
 
 .w-150{
@@ -8424,8 +8510,8 @@ del {
 /* Hide content initially */
 
 
-
-/* #main-content {
+/* 
+#main-content {
   display: none;
 }
 .hidden {
@@ -8466,16 +8552,22 @@ del {
   }
   .logo{
     width: 150px;
+    position: absolute;
+  top: -30px;
   }
   .p-header {
     padding: 20px 0px;
   }
+
+
   .early {
     color: white;
     letter-spacing: 5px;
     font-family: "DM Sans", sans-serif;;
       animation:fadeIn ease-in 1; /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
+  
       animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  
       animation-duration:1s;
       animation-delay: 1.5s
   }
@@ -8518,6 +8610,23 @@ del {
   margin-bottom: 10px !important;
   margin-top: 10px !important;
  }
+
+ .register-form{
+  background-color: #030E4E;
+  padding: 205px;
+ }
+ .form-group>input{
+  background-color: transparent;
+  color:white !important;
+  border: none;
+  border-bottom: 1px solid white !important;
+
+ }
+ .form-group>label{
+  color:white !important;
+ }
+
+
 .modal{
   z-index: 11111111 !important;
 }
