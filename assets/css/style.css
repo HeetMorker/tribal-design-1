@@ -8505,9 +8505,7 @@ del {
       transition: all 0.3s linear;
     opacity: 0.7 !important;
   }
-  ::placeholder{
-    color: white !important;
-  }
+
   .date-p{
     padding: 12px 5px 12px 0px;
   }

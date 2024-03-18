@@ -22,7 +22,8 @@ $(document).ready(function(){
                 },
                 number: {
                     required: true,
-                    minlength: 5
+                    minlength: 10,
+                    
                 },
                 email: {
                     required: true,
@@ -44,7 +45,7 @@ $(document).ready(function(){
                 },
                 number: {
                     required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    minlength: "Please enter a valid contact number"
                 },
                 email: {
                     required: "no email, no message"
