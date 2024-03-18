@@ -1,9 +1,8 @@
 <?php
 include "header.php";
 ?>
-
 <main>
-    <!-- -->
+    
     <div class="slider-area2">
         <div class="slider-height2 d-flex align-items-center">
             <div class="container">
@@ -17,7 +16,6 @@ include "header.php";
             </div>
         </div>
     </div>
-
 
     <!--form Start-->
     <section class="about-low-area section-padding2">

@@ -28,11 +28,11 @@ include "header.php";
     <!-- donation form strat -->
     <section class="about-low-area section-padding2">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <div class="col-12">
                     <h2 class="contact-title">Your Donation</h2>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-6">
                     <form action="bootstrapform.php" class="" method="post">
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -87,6 +87,11 @@ include "header.php";
                         </div>
                         <button type="submit" class="btn btn-primary" name="create">Donate Now</button>
                     </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="dontate-img">
+                        <img src="assets/img/hero/donate.jpg" alt="" class="img-thumbnail  " >
+                    </div>
                 </div>
             </div>
         </div>

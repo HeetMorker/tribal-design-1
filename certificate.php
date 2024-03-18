@@ -20,22 +20,6 @@
     <!-- Our Cases Start -->
     <div class="our-cases-area pb-160">
         <div class="container">
-            <!-- <div class="row justify-content-center">
-                <div class="col-6">
-                    <img src="assets/img/certificate/cer1.jpg" alt="">
-                </div>
-                <div class="col-6">
-                      <img src="assets/img/certificate/cer3.jpg" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="assets/img/certificate/cer2.png" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="assets/img/certificate/Fcra_original.png" alt="">
-                </div>
-
-                
-            </div> -->
             <div class="row ">
                 <div class="col-6">
                     <div class="col-md-12 border border-dark">
