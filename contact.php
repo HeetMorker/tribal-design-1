@@ -66,32 +66,32 @@ include "header.php";
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-home"></i></span>
                         <div class="media-body">
-                            <h3>Buttonwood, California.</h3>
-                            <p>Rosemead, CA 91770</p>
+                            <h3>Shri Shri Adivasi Gram Vikas Charitable Trust, Mogran <br/>
+                                        P.O. Chitpur, Ta: Uchhal, Dist: Tapi.</h3>
+                            
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-tablet"></i></span>
                         <div class="media-body">
-                            <h3>+1 253 565 2365</h3>
-                            <p>Mon to Fri 9am to 6pm</p>
+                            <h3>+91 9909839854</h3>
+                            
                         </div>
                     </div>
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
-                            <h3>support@colorlib.com</h3>
-                            <p>Send us your query anytime!</p>
+                            <h3><a href="mailto:vasavaganesh154@gmail.com">vasavaganesh154@gmail.com</a></h3>
+                            
                         </div>
                     </div>
                 </div>
             </div>
             
                 <div class="d-none d-sm-block col-12 mb-5 pb-4">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29759.05729395213!2d72.77584051497318!3d21.196839601643383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04c351ceae251%3A0x1d35b30f855a2c36!2sAdajan%2C%20Surat%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1683644881143!5m2!1sen!2sin"
-                        style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade" height="400px" class="col"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8351.96750608044!2d73.76512108583948!3d21.177110965032785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdfc941b10a9c19%3A0x35fd84bcdd47c7fd!2sUchchhal%2C%20Gujarat%20425418!5e0!3m2!1sen!2sin!4v1710762062289!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  height="400px" class="col"></iframe>
+
+                    
                 </div>
            
         </div>

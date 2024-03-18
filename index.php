@@ -6,7 +6,7 @@
    
     <!-- slider Area Start-->
     <div class="slider-area">
-        <div class="slider-active">
+        <div class="slider-active header-slider">
             <!-- Single Slider -->
             <div class="single-slider slider-height d-flex align-items-center">
                 <div class="container">
@@ -44,8 +44,8 @@
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle text-center mb-80">
-                        <span>What we are doing</span>
-                        <h2>We Are In A Mission To Help The Helpless</h2>
+                        <span>What We Do</span>
+                        <h2>Empathy, Equity, Empowerment: Our Commitment to Tribal Welfare</h2>
                     </div>
                 </div>
             </div>
@@ -166,14 +166,14 @@
     </div>
     <!-- Services Area End -->
     <!--? Team Ara Start -->
-    <div class="team-area pt-160 pb-160">
+    <div class="team-area pt-60 pb-60">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle section-tittle2 text-center mb-70">
-                        <span>What we are doing</span>
-                        <h2>Our Expert Volunteer Alwyes ready</h2>
+                    <h2>Committee Members</h2>
+                       
                     </div>
                 </div>
             </div>
@@ -181,7 +181,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/vol1.JPG" alt="">
+                            <img src="assets/img/gallery/vol1.jpeg" alt="">
                         </div>
                         <div class="team-caption">
                             <h3><a href="instructor.html">Saurav Ganeshbhai Vasava</a></h3>
@@ -302,15 +302,13 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Margaret Lawson</span>
-                                        <p>Creative Director</p>
+                                        <img src="assets/img/gallery/Sureshbhai devjibhai mavchi.jpeg" alt="">
+                                        <span>Sureshbhai devjibhai mavchi</span>
+                                        <p>Village Farmer</p>
                                     </div>
                                 </div>
                                 <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our
-                                        responsibility! So start caring for your body and it will care for you. Eat
-                                        clean it will care for you and workout hard.”</p>
+                                    <p>“From tiny trees to big success: Growing mangoes, growing wealth all my thanks to SHRI SHRI ADIVASI CHARITABLE TRUST”</p>
                                 </div>
                             </div>
                         </div>
@@ -320,15 +318,13 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Margaret Lawson</span>
-                                        <p>Creative Director</p>
+                                        <img src="assets/img/gallery/sakuben.jpeg" alt="">
+                                        <span>Shakuben gavjibhai gamit</span>
+                                        <p>Village Farmer</p>
                                     </div>
                                 </div>
                                 <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our
-                                        responsibility! So start caring for your body and it will care for you. Eat
-                                        clean it will care for you and workout hard.”</p>
+                                    <p>“"Starting small, reaching heights: Mangoes growing, wealth flowing, with heartfelt thanks to SHRI SHRI ADIVASI CHARITABLE TRUST."”</p>
                                 </div>
                             </div>
                         </div>
@@ -338,15 +334,29 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Margaret Lawson</span>
-                                        <p>Creative Director</p>
+                                        <img src="assets/img/gallery/diluben.jpeg" alt="">
+                                        <span>Diluben rameshbhai gamit</span>
+                                        <p>Village Farmer</p>
                                     </div>
                                 </div>
                                 <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our
-                                        responsibility! So start caring for your body and it will care for you. Eat
-                                        clean it will care for you and workout hard.”</p>
+                                    <p>“From one cow, a better life: Growing wealth, thanks to SHRI SHRI ADIVASI CHARITABLE TRUST for generous gift.”</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- Single Testimonial -->
+                         <div class="single-testimonial text-center">
+                            <div class="testimonial-caption ">
+                                <!-- founder -->
+                                <div class="testimonial-founder">
+                                    <div class="founder-img mb-40">
+                                        <img src="assets/img/gallery/PrakeshBhai.jpeg" alt="">
+                                        <span>PrakeshBhai Maganbhai Vasava</span>
+                                        <p>Village Farmer</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-top-cap">
+                                    <p>“Your blood donation saved my son's life, bringing hope and health to our family. Thank you SHRI SHRI ADIVASI CHARITABLE TRUST your selfless gift.”</p>
                                 </div>
                             </div>
                         </div>
