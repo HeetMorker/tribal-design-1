@@ -16,7 +16,7 @@ include "header.php";
                             <span>About The Founder</span>
                             <h2>Mr. Ganesh Vasava</h2>
                         </div>
-                        <p class="text-justify">Sri Sri Adivasi Gramya Charitable Trust was formed with the main objective of being helpful for the development of the people of Khewada and the tribal area of Khewada.</p>
+                        <p class="text-justify">Sri Sri Adivasi Gram Charitable Trust was formed with the main objective of being helpful for the development of the people of Khewada and the tribal area of Khewada.</p>
                         <p class="text-justify">The trust was approved on the eighth day of the revolutionary month of August 2008. Since then till today, many social useful activities have been done by the trust.</p>
                         <p class="text-justify">Mainly the tribal area of Tapi, Narmada and Dang district has been the working area of our trust. In this area many social evils like superstition, addiction are prevalent due to unemployment, poverty and illiteracy. The trust has many projects like tree plantation for public awareness, de-addiction, self-reliance and environmental enrichment. have been carried out.</p>
                         <p class="text-justify">So far, more than 1000 youths have been completely freed from addiction through the Addiction Mukti Abhiyan. As many as 400 youths have been made yoga gurus by imparting yoga training. Those who have gained foothold as yoga teachers.
@@ -31,7 +31,7 @@ The trust distributes fruit tree saplings free of charge, from which many famili
                     </div>
                     
                 </div>
-                <div class="col-lg-4 col-md-12">
+                <div class="col-lg-4 col-md-12 ">
                     <!-- about-img -->
                     <div class="about-img  ">
                         <!-- <div class="about-font-img d-none d-lg-block   ">
@@ -41,8 +41,8 @@ The trust distributes fruit tree saplings free of charge, from which many famili
                         <!-- <div class="about-back-img">
                             <img src="assets/img/hero/founder .png" alt="" width="354px" height="453px" class="img-fluid ">
                         </div> -->
-                        <div class="about-back-img">
-                            <img src="assets/img/hero/founder .png" alt=""  class="img-fluid ">
+                        <div class="about-back-img mt-5">
+                            <img src="assets/img/hero/founder.jpeg" alt=""  class="img-fluid ">
                         </div>
                     </div>
                 </div>

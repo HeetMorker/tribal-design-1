@@ -26,7 +26,7 @@ include "header.php";
     </div>
     <!-- Hero End -->
     <!-- donation form strat -->
-    <section class="about-low-area section-padding2">
+    <section class="contact-section">
         <div class="container">
             <div class="row align-items-center ">
                 <div class="col-12">
