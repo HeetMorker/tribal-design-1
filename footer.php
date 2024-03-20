@@ -178,12 +178,13 @@
 
 <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
 
-
-    <script>
-// $(window).load(function() {
-//  	$(".loader2").delay(1000).fadeOut("fast");
-//  });
-</script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<script>
+$(window).on('load', function() {
+    $(".loader2").delay(3000).fadeOut("fast");
+    $("video").prop("muted", false); 
+});
+</script>   
 </body>
 
 </html>

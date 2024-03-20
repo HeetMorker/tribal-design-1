@@ -8421,24 +8421,7 @@ del {
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
-}
-
-/* Hide content initially */
-
-
-/* 
-#main-content {
-  display: none;
-}
-.hidden {
-  display: none;
-}
-.loader{
- width: 500px; 
-}x
-#loader-video{
-  width: 500px;
-} */
+} 
 
 .loader{
   width: 100%;
@@ -8539,4 +8522,10 @@ del {
     height: auto;
   }
   
+}
+.donate-section{
+  background-image: url(../img/banner/image\ banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

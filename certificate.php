@@ -18,24 +18,8 @@
         </div>
     </div>
     <!-- Our Cases Start -->
-    <div class="our-cases-area pb-160">
+    <div class="contact-section">
         <div class="container">
-            <!-- <div class="row justify-content-center">
-                <div class="col-6">
-                    <img src="assets/img/certificate/cer1.jpg" alt="">
-                </div>
-                <div class="col-6">
-                      <img src="assets/img/certificate/cer3.jpg" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="assets/img/certificate/cer2.png" alt="">
-                </div>
-                <div class="col-6">
-                    <img src="assets/img/certificate/Fcra_original.png" alt="">
-                </div>
-
-                
-            </div> -->
             <div class="row ">
                 <div class="col-lg-6">
                     <div class="border border-dark">
@@ -60,6 +44,18 @@
                         <img src="assets/img/certificate/Fcra_original.png" alt="">
                     </div>
                     <p class="certificate-description text-center">FCRA Certificate</p>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class=" border border-dark h-1093">
+                        <img src="assets/img/certificate/4.jpeg" alt="">
+                    </div>
+                    <p class="certificate-description text-center">Form No 10AC</p>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <div class=" border border-dark h-1093">
+                        <img src="assets/img/certificate/5.jpeg" alt="">
+                    </div>
+                    <p class="certificate-description text-center">Form No 10AC</p>
                 </div>
             </div>
         </div>

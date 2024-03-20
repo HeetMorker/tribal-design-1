@@ -48,11 +48,14 @@
 
 <body>
     <!-- <div id="loader" class="loader"> -->
-        <!-- <div class="loader2">
-            <video class="loader-icon"  autoplay muted playsinline>
-                <source src="assets/img/video/WhatsApp Video 2024-03-15 at 6.00.32 PM (1).mp4" type="video/mp4">
+        <div class="loader2">
+            <video class="loader-icon"muted autoplay playsinline>
+                <source src="assets/img/video/loader - Copy.mp4" type="video/mp4">
             </video>
-        </div> -->
+            <audio src="">
+                <source src="assets/img/video/adio.mp3">
+            </audio>
+        </div>
 
     <div id="content" class="hidden">
         <!-- Your dynamic content goes here -->

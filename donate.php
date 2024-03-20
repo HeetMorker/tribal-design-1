@@ -26,13 +26,13 @@ include "header.php";
     </div>
     <!-- Hero End -->
     <!-- donation form strat -->
-    <section class="contact-section">
+    <section class="contact-section donate-section">
         <div class="container">
             <div class="row align-items-center ">
-                <div class="col-12">
+                <div class="col-lg-12 col-md-12">
                     <h2 class="contact-title">Your Donation</h2>
                 </div>
-                <div class="col-lg-6 ">
+                <div class="col-lg-7 col-md-10">
                     <form action="bootstrapform.php" class="" method="post">
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -88,11 +88,11 @@ include "header.php";
                         <button type="submit" class="btn btn-primary" name="create">Submit</button>
                     </form>
                 </div>
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6 col-md-12">
                     <div class="dontate-img mx-3">
                         <img src="assets/img/hero/donate.jpg" alt="" class="img-thumbnail"  >
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
