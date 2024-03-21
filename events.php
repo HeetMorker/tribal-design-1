@@ -63,8 +63,8 @@ include "header.php";
                             <div class="grid-item yoga"><img src="assets/img/yoga/3.jpeg"  alt=""/></div>
                             <div class="grid-item organic"><img src="assets/img/organic farming/fer1.jpg"  alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/yoga2.jpg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div>
+                            <!-- <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div> -->
                         </div>
                     </section>
                 </div>
