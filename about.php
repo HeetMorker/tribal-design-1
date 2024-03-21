@@ -6,7 +6,7 @@ include "header.php";
 
 
     <!--? About Law Start-->
-    <section class="about-low-area section-padding2">
+    <section class="about-low-area section-padding30">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-10">
