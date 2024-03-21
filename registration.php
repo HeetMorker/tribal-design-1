@@ -9,13 +9,19 @@ include "header.php";
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-20 text-center">
-                            <h2>Registration Form </h2>
+                            <h2>Registration  </h2>
                         </div>
+                    </div>
+                </div>
+                <div class="col-xl-12">
+                    <div class="mt-4 text-center ">
+                        <p><i>"Be a part of our Community"</i></p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
 
     <!--form Start-->
     <section class="contact-section">

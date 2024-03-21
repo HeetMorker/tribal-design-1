@@ -97,7 +97,13 @@ include "header.php";
     <!-- Our Cases Start -->
     <div class="our-cases-area section-padding30">
         <div class="container">
+        <div class="section-tittle text-center mb-80">
+                       
+                       <h2>Words of Gratitude</h2>
+                   </div>
             <div class="row">
+            
+               
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="single-cases mb-40">
                         <div class="cases-img">
@@ -135,7 +141,7 @@ include "header.php";
                             </video>
                         </div>
                         <div class="cases-caption">
-                            <h3>Kids learning yoga with fun and music.</h3>
+                            <h3>Kids finding inner peace with yoga, accompanied by lively tunes and laughter.</h3>
 
                         </div>
                     </div>
@@ -157,33 +163,21 @@ include "header.php";
                     <div class="single-cases mb-40">
                         <div class="cases-img">
                             <video controls height="300">
+                                <source src="assets/img/video/tribal_enjoyment1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="cases-caption">
+                            <h3>People enjoying tribal dance and music</h3>
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="single-cases mb-40">
+                        <div class="cases-img">
+                            <video controls height="300">
                                 <source src="assets/img/video/yoga-video-2.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <div class="cases-caption">
-                            <h3>Kids finding inner peace with yoga, accompanied by lively tunes and laughter.</h3>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="single-cases mb-40">
-                        <div class="cases-img">
-                            <video controls height="300">
-                                <source src="assets/img/video/yoga-video-3.mp4" type="video/mp4">
-                            </video>
-                        </div>
-                        <div class="cases-caption">
-                            <h3>Kids learning yoga with fun and music.</h3>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6">
-                    <div class="single-cases mb-40">
-                        <div class="cases-img">
-                            <video controls height="300">
-                                <source src="assets/img/video/yoga-vdeo-4.mp4" type="video/mp4">
                             </video>
                         </div>
                         <div class="cases-caption">

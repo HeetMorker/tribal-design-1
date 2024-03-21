@@ -15,7 +15,7 @@ include "header.php";
                 </div>
                 <div class="col-xl-12">
                     <div class="mt-4 text-center ">
-                        <p>Donate generously and help tribals for their upliftment in the society</p>
+                        <p><i>"Extend a helping hand: Donate generously to uplift tribal communities for a brighter tomorrow!"</i></p>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ include "header.php";
         <div class="container">
             <div class="row align-items-center ">
                 <div class="col-lg-12 col-md-12">
-                    <h2 class="contact-title">Your Donation</h2>
+                    <h2 class="contact-title">To donate please fill the form below and we will contact you</h2>
                 </div>
                 <div class="col-lg-7 col-md-10">
                     <form action="bootstrapform.php" class="" method="post">

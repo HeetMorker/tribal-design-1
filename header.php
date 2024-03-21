@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> Tribal Welfare</title>
+    <title>SHRI SHRI ADIVASI GRAM VIKAS CHARITABLE TRUST</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -63,19 +63,20 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
         </div>
 
         <!-- Header Start -->
+        <!-- Logo -->
+        <div class="col-xl-3 col-lg-3 d-flex ">
+            <div class="logo" style="position: fixed;top: 40px;">
+                <a href="index.php">
+                    <img src="assets/img/logo/logo_150.jpg" alt="" ></a>
+            </div>
+        </div>
         <div class="header-area ">
-            <div class="main-header">
+            <div class="main-header" style="margin-left: 15%;">
                 <div class="header-bottom header-sticky">
                     <div class="container-fluid p-header">
                         <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-3 col-lg-3 d-flex justify-content-center 
-                            ">
-                                <div class="logo">
-                                    <a href="index.php">
-                                        <img src="assets/img/logo/logo_150.jpg" alt=""></a>
-                                </div>
-                            </div>
+                            
+                            
                             <div class="col-xl-9 col-lg-9">
                                 <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                     <!-- Main-menu -->
@@ -83,11 +84,11 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                         <nav>
                                             <ul id="navigation">
                                                 <li class="position-relative"><a href="index.php">Home</a></li>
-                                                <li class="position-relative"><a href="about.php">About</a></li>
+                                                <li class="position-relative"><a href="about.php">About Us</a></li>
                                                 <li class="position-relative"><a href="events.php">Social Events</a>
                                                 </li>
-                                                <li class="position-relative"><a href="contact.php">Contact</a></li>
-                                                <li class="position-relative"><a href="certificate.php">Certificate</a></li>
+                                                <li class="position-relative"><a href="contact.php">Contact Us</a></li>
+                                                <li class="position-relative"><a href="certificate.php">Certificates</a></li>
                                             </ul>
                                         </nav>
                                     </div>

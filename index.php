@@ -23,7 +23,7 @@
                                 <div class="hero__btn">
                                     <a href="donate.php" class="btn hero-btn mb-10" data-animation="fadeInLeft"
                                         data-delay=".8s">Donate</a>
-                                    <a href="industries.html" class="cal-btn ml-15" data-animation="fadeInRight"
+                                    <a href="#" class="cal-btn ml-15" data-animation="fadeInRight"
                                         data-delay="1.0s">
                                         <i class="flaticon-null"></i>
                                         <p>+91 99098 39854</p>
@@ -178,24 +178,26 @@
                 </div>
             </div>
             <div class="row">
+                <a href="about.php">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
                             <img src="assets/img/gallery/vol1.jpeg" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">Saurav Ganeshbhai Vasava</a></h3>
+                            <h3><a href="instructor.html">Mr. Saurav Ganeshbhai Vasava</a></h3>
                             <p>Committee Member</p>
                         </div>
                     </div>
                 </div>
+                </a>
                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                     <div class="single-team mb-30">
                         <div class="team-img">
                             <img src="assets/img/gallery/vol2.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">Meenaben Gavjibhai Vasava
+                            <h3><a href="instructor.html">Mrs. Meenaben Gavjibhai Vasava
                                 </a></h3>
                             <p>Committee Member</p>
                         </div>
@@ -207,7 +209,7 @@
                             <img src="assets/img/gallery/vol3.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">Jyotishbhai Ramanbhai Chaudhri</a></h3>
+                            <h3><a href="instructor.html">Mr. Jyotishbhai Ramanbhai Chaudhri</a></h3>
                             <p>Clerk</p>
                         </div>
                     </div>
@@ -218,7 +220,7 @@
                             <img src="assets/img/gallery/vol4.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">Manilal Kathudiyabhai Vasava</a></h3>
+                            <h3><a href="instructor.html">Mr. Manilal Kathudiyabhai Vasava</a></h3>
                             <p>Committee Member</p>
                         </div>
                     </div>
@@ -229,7 +231,7 @@
                             <img src="assets/img/gallery/vol5.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">Ashokbhai Gumansingh Chaudhry</a></h3>
+                            <h3><a href="instructor.html">Mr. Ashokbhai Gumansingh Chaudhry</a></h3>
                             <p>Advisor</p>
                         </div>
                     </div>
@@ -262,7 +264,7 @@
                             <img src="assets/img/gallery/vol6.png" alt="">
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">Dilipbhai K. Vasava</a></h3>
+                            <h3><a href="instructor.html">Mr. Dilipbhai K. Vasava</a></h3>
                             <p>Committee Member</p>
                         </div>
                     </div>
@@ -278,11 +280,11 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-9 col-md-8">
                         <div class="wantToWork-caption wantToWork-caption2">
-                            <h2>Lets Chenge The World With Humanity</h2>
+                            <h2>Be a part of our Community</h2>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-3 col-md-4">
-                        <a href="registration.php" class="btn white-btn f-right sm-left">Become A Volunteer</a>
+                        <a href="registration.php" class="btn white-btn f-right sm-left">Register Now </a>
                     </div>
                 </div>
             </div>
@@ -376,9 +378,9 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Counter Up -->
                                 <div class="single-counter text-center">
-                                    <span class="counter color-green">6,200</span>
+                                    <span class="counter color-green">200</span>
                                     <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
+                                    <p class="color-green">Blood Donated</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -386,7 +388,7 @@
                                 <div class="single-counter text-center">
                                     <span class="counter color-green">80</span>
                                     <span class="plus">+</span>
-                                    <p class="color-green">Fund Raised</p>
+                                    <p class="color-green">Seed Donated</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
@@ -394,15 +396,15 @@
                                 <div class="single-counter text-center">
                                     <span class="counter color-green">256</span>
                                     <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
+                                    <p class="color-green">Trees Planted</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Counter Up -->
                                 <div class="single-counter text-center">
-                                    <span class="counter color-green">256</span>
+                                    <span class="counter color-green">100</span>
                                     <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
+                                    <p class="color-green">Yoga Sessions</p>
                                 </div>
                             </div>
                         </div>
