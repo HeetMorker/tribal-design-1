@@ -15,10 +15,7 @@ include "header.php";
                 </div>
                 <div class="col-xl-12">
                     <div class="mt-4 text-center ">
-                        <p>Recurring donations allow your donors to support your cause on an ongoing basis. This demo
-                            provides the donor with the option to make their donation a subscription as well as
-                            customize
-                            the giving frequency</p>
+                        <p>Donate generously and help tribals for their upliftment in the society</p>
                     </div>
                 </div>
             </div>
