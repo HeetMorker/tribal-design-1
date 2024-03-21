@@ -107,6 +107,7 @@
         dots: true,
         margin: 20,
         arrows: true,
+        autoplay: true,
         autoplaySpeed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
