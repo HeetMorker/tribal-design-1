@@ -181,10 +181,10 @@
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script>
-$(window).on('load', function() {
-    $(".loader2").delay(3000).fadeOut("fast");
-    $("video").prop("muted", false); 
-});
+// $(window).on('load', function() {
+//     $(".loader2").delay(3000).fadeOut("fast");
+//     $("video").prop("muted", false); 
+// });
 </script>   
 </body>
 

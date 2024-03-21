@@ -18,53 +18,6 @@ include "header.php";
         </div>
     </div>
     <!-- Hero End -->
-    <!--? Count Down Start -->
-    <!-- <div class="count-down-area pt-25 section-bg" data-background="assets/img/gallery/section_bg02.png">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-12 col-md-12">
-                    <div class="count-down-wrapper" >
-                        <div class="row justify-content-between">
-                            <div class="col-lg-3 col-md-6 col-sm-6"> -->
-                                <!-- Counter Up -->
-                                <!-- <div class="single-counter text-center">
-                                    <span class="counter color-green">6,200</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6"> -->
-                                <!-- Counter Up -->
-                                <!-- <div class="single-counter text-center">
-                                    <span class="counter color-green">80</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Fund Raised</p>
-                                </div>
-                            </div> -->
-                            <!-- <div class="col-lg-3 col-md-6 col-sm-6"> -->
-                                <!-- Counter Up -->
-                                <!-- <div class="single-counter text-center">
-                                    <span class="counter color-green">256</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-6"> -->
-                                <!-- Counter Up -->
-                                <!-- <div class="single-counter text-center">
-                                    <span class="counter color-green">256</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- Count Down End -->
       <!-- Our Cases Start -->
       <div class="our-cases-area pb-160">
         <div class="container">
@@ -81,9 +34,9 @@ include "header.php";
                         <div class="hero-foot container mb-5 " >
                             <ul id="buttonGroup" class="row justify-content-center">
                                 <li class="col-2 is-active "><button class="btn mas-btn"> <a class="" id="all">All</a></button></li>
-                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="organic">Blood Donation</a></button></li>
+                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="blood_donation">Blood Donation</a></button></li>
                                 <li class="col-2 "><button class="btn mas-btn"> <a class="" id="yoga">Yoga Training</a></button></li>
-                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="cow">Employment Guidance</a></button></li>
+                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="employment">Employment Guidance</a></button></li>
                                 <li class="col-2 "><button class="btn mas-btn"> <a class="" id="deadd">De-Addiction</a></button></li>
                                 <li class="col-2 "><button class="btn mas-btn"> <a class="" id="organic">Organic Farming</a></button></li>
                                 
@@ -91,25 +44,27 @@ include "header.php";
                         </div>
                         <div class="grid" id="container">
                             <div class="grid-sizer"></div>
-                            <div class="grid-item cow"><img src="assets/img/De addication/6.jpeg" alt="" /></div>
-                            <div class="grid-item cow"><img src="assets/img/De addication/7.jpeg" alt=""  /></div>
-                            <div class="grid-item yoga"><img src="assets/img/yoga/4.jpeg" alt=""/></div>
-                            <div class="grid-item yoga"><img src="assets/img/yoga/5.jpeg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/De addication/7.jpeg"  alt=""/></div>
+                            <div class="grid-item blood_donation"><img src="assets/img/blood donation/blood_donation.jpg" alt="" /></div>
+                            <div class="grid-item employment"><img src="assets/img/employee guidance/eg1.jpg" alt=""  /></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/1.jpg" alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/3.jpg"  alt=""/></div>
+                            <div class="grid-item employment"><img src="assets/img/employee guidance/eg2.jpg"  alt=""/></div>
                             <div class="grid-item deadd "><img src="assets/img/De addication/8.jpeg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/De addication/9.jpeg"  alt=""/></div>
-                            <div class="grid-item  organic"><img src="assets/img/De addication/10.jpeg"  alt=""/></div>
-                            <div class="grid-item yoga"><img src="assets/img/De addication/11.jpeg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/De addication/12.jpeg" alt="" /></div>
-                            <div class="grid-item deadd"><img src="assets/img/De addication/13.jpeg"  alt=""/></div>
-                            <div class="grid-item yoga"><img src="assets/img/De addication/6.jpeg"  alt=""/></div>
+                            <div class="grid-item employment"><img src="assets/img/employee guidance/eg3.jpg"  alt=""/></div>
+                            <div class="grid-item blood_donation"><img src="assets/img/blood donation/blood_donation1.jpg"  alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/4.jpg"  alt=""/></div>
+                            <div class="grid-item employment"><img src="assets/img/employee guidance/eg4.jpg" alt="" /></div>
+                            <div class="grid-item deadd"><img src="assets/img/De addication/6.jpeg"  alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/5.jpg"  alt=""/></div>
                             <div class="grid-item deadd "><img src="assets/img/other/14.jpeg"  alt="" /></div>
-                            <div class="grid-item  organic"><img src="assets/img/other/15.jpeg" alt="" /></div>
+                            <div class="grid-item  organic"><img src="assets/img/organic farming/tree1.jpg" alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/other/16.jpeg"  alt=""/></div>
-                            <div class="grid-item organic"><img src="assets/img/yoga/1.jpeg" alt="" /></div>
+                            <div class="grid-item organic"><img src="assets/img/organic farming/fer2.jpg" alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/3.jpeg"  alt=""/></div>
-                            <div class="grid-item organic"><img src="assets/img/De addication/8.jpeg"  alt="" /></div>
-                            <div class="grid-item yoga"><img src="assets/img/yoga/4.jpeg"  alt=""/></div>
+                            <div class="grid-item organic"><img src="assets/img/organic farming/fer1.jpg"  alt="" /></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/yoga2.jpg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div>
                         </div>
                     </section>
                 </div>
@@ -130,9 +85,11 @@ include "header.php";
     // element selectors
     var imgAll = document.querySelectorAll('.all');
     var imgNy = document.querySelectorAll('.yoga');
-    var imgcow = document.querySelectorAll('.cow');
-    var deadd=document.querySelectorAll('.deadd');
-    var imgOthers = document.querySelectorAll('.organic');
+    var imgEmployment = document.querySelectorAll('.employment');
+    var imgDeadd=document.querySelectorAll('.deadd');
+    var imgOrganic = document.querySelectorAll('.organic')
+    var imgBlood=document.querySelectorAll('.blood_donation')
+  
     // buttons
     const tabsUl = document.getElementById('buttonGroup');
     const lis = tabsUl.children;
@@ -183,24 +140,28 @@ include "header.php";
             }
         }
 
-        //show ny images
+         //show blood_donation images
+         if (event.target.id == "blood_donation") {
+            showImages(imgBlood,imgNy, imgOrganic);
+        }
+        //show yoga images
         if (event.target.id == "yoga") {
-            showImages(imgNy, imgcow, imgOthers);
+            showImages(imgNy, imgOrganic,imgBlood );
         }
 
-        // show cow
-        if (event.target.id == "cow") {
-            showImages(imgcow, imgNy, imgOthers);
+        // show employment
+        if (event.target.id == "employment") {
+            showImages(imgEmployment, imgNy, imgOrganic);
         }
 
         // show deadd
         if (event.target.id == "deadd") {
-            showImages(imgcow, imgNy, deadd);
+            showImages(imgDeadd, imgNy,imgBlood );
         }
 
         // show other images
-        if (event.target.id == "others") {
-            showImages(imgOthers, imgcow, imgNy);
+        if (event.target.id == "organic") {
+            showImages(imgOrganic, imgDeadd, imgNy);
         }
         msnry.layout();
 
