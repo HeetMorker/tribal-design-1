@@ -5,12 +5,14 @@
             <div class="container">
                 <div class="row d-flex justify-content-between">
                     <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
-                        <div class="single-footer-caption mb-50">
+                        <div class="single-footer-caption mb-50 text-center">
                             <div class="single-footer-caption mb-30">
                                 <div class="footer-tittle">
                                     <div class="footer-logo mb-20">
                                         <a href="index.php"> <img src="assets/img/logo/logo_150.jpg" alt="" ></a>
+                                        
                                     </div>
+                                    <h4>Shri Shri Adivasi Gram Vikas Charitable Trust</h4>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +47,7 @@
                                     <li><a href="events.php"> Social Events</a></li>
                                     <li><a href="contact.php">Contact Us</a></li>
                                     <li><a href="#">Donate</a></li>
-                                    <li><a href="#">Register</a></li>
+                                    
                                    
                                 </ul>
                             </div>
@@ -73,10 +75,9 @@
                         </div>
                         <div class="col-xl-2 col-lg-3">
                             <div class="footer-social f-right">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.facebook.com/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fas fa-globe"></i></a>
-                                <a href="#"><i class="fab fa-behance"></i></a>
+                                
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                
                             </div>
                         </div>
                     </div>

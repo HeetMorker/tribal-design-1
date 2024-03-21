@@ -736,7 +736,7 @@ hr {
 /* Sticky*/
 /* line 465, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_common.scss */
 .sticky-bar {
-  left: 0;
+  /* left: 0; */
   margin: auto;
   position: fixed;
   top: 0;
