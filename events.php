@@ -68,7 +68,7 @@ include "header.php";
                             </div>
                             <div class="grid-item deadd"><img src="assets/img/De addication/6.jpeg" alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/5.jpg" alt="" /></div>
-                            <div class="grid-item deadd "><img src="assets/img/other/14.jpeg" alt="" /></div>
+                            <div class="grid-item deadd "><img src="assets/img//De addication/12.jpeg" alt="" /></div>
                             <div class="grid-item  organic"><img src="assets/img/organic farming/tree1.jpg" alt="" />
                             </div>
                             <div class="grid-item yoga"><img src="assets/img/other/16.jpeg" alt="" /></div>
@@ -78,8 +78,8 @@ include "header.php";
                             <div class="grid-item organic"><img src="assets/img/organic farming/fer1.jpg" alt="" />
                             </div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/yoga2.jpg" alt="" /></div>
-                            <!-- <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div> -->
+                             <!-- <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div>  -->
                         </div>
                     </section>
                 </div>
