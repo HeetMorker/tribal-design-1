@@ -105,13 +105,12 @@
 <script>
     $('.tri').slick({
         dots: true,
-        margin: 20,
+        margin: 0,
         arrows: true,
         autoplay: true,
         autoplaySpeed: 1000,
         slidesToShow: 3,
         slidesToScroll: 1,
-        centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
         responsive: [
@@ -119,7 +118,6 @@
                 breakpoint: 768,
                 settings: {
                     arrows: true,
-                    centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 3
                 }
