@@ -60,7 +60,7 @@ include "header.php";
                             <div class="grid-item  organic"><img src="assets/img/organic farming/tree1.jpg" alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/other/16.jpeg"  alt=""/></div>
                             <div class="grid-item organic"><img src="assets/img/organic farming/fer2.jpg" alt="" /></div>
-                            <div class="grid-item yoga"><img src="assets/img/yoga/3.jpeg"  alt=""/></div>
+                            <div class="grid-item yoga"><img src="assets/img/yoga/yoga1.jpg"  alt=""/></div>
                             <div class="grid-item organic"><img src="assets/img/organic farming/fer1.jpg"  alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/yoga2.jpg"  alt=""/></div>
                             <!-- <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
@@ -76,102 +76,82 @@ include "header.php";
     <!-- Our Cases End -->
     </main>
 
-    <!-- Masonary Gallery js -->
-<script src='https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js'></script>
+    
+    <script src='https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js'></script>
 <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
 <script>
-    var grid = document.querySelector('.grid');
-    var msnry;
-    // element selectors
-    var imgAll = document.querySelectorAll('.all');
-    var imgNy = document.querySelectorAll('.yoga');
-    var imgEmployment = document.querySelectorAll('.employment');
-    var imgDeadd=document.querySelectorAll('.deadd');
-    var imgOrganic = document.querySelectorAll('.organic')
-    var imgBlood=document.querySelectorAll('.blood_donation')
-  
-    // buttons
-    const tabsUl = document.getElementById('buttonGroup');
-    const lis = tabsUl.children;
-    const gridItems = grid.children;
-
-
-    imagesLoaded(grid, function () {
-        msnry = new Masonry(grid, {
-            //options
+    document.addEventListener("DOMContentLoaded", function () {
+        // Initialize Masonry grid
+        var grid = document.querySelector('.grid');
+        var msnry = new Masonry(grid, {
             itemSelector: '.grid-item',
             columnWidth: '.grid-sizer',
             percentPosition: true
         });
-    });
 
-    //element & class name
-    function toggleClass(parentElem, childElems, className) {
-        for (let i = 0; i < childElems.length; i++) {
-            if (childElems[i] == parentElem) {
-                childElems[i].classList.add(className);
+        // Element selectors
+        var imageSets = {
+            'all': document.querySelectorAll('.all'),
+            'blood_donation': document.querySelectorAll('.blood_donation'),
+            'yoga': document.querySelectorAll('.yoga'),
+            'employment': document.querySelectorAll('.employment'),
+            'deadd': document.querySelectorAll('.deadd'),
+            'organic': document.querySelectorAll('.organic')
+        };
+
+        // Buttons
+        const tabsUl = document.getElementById('buttonGroup');
+
+        // Function to toggle active class on buttons
+        function toggleActiveButton(clickedButton) {
+            Array.from(tabsUl.children).forEach(child => {
+                child.classList.remove('is-active');
+            });
+            clickedButton.parentNode.classList.add('is-active');
+        }
+
+        // Function to show images based on button clicked
+        function showImages(imageSetToShow) {
+            if (imageSetToShow === 'all') {
+                // Show all images
+                Object.keys(imageSets).forEach(key => {
+                    const images = imageSets[key];
+                    images.forEach(img => {
+                        img.style.display = 'block';
+                    });
+                });
+            } else {
+                // Show images for specific set
+                Object.keys(imageSets).forEach(key => {
+                    const images = imageSets[key];
+                    const display = (key === imageSetToShow) ? 'block' : 'none';
+                    images.forEach(img => {
+                        img.style.display = display;
+                    });
+                });
             }
-            else {
-                childElems[i].classList.remove(className);
+            msnry.layout(); // Layout Masonry
+        }
+
+        // Event listener for button clicks
+        tabsUl.addEventListener('click', (event) => {
+            if (event.target.tagName === 'A') {
+                const tabId = event.target.id;
+                toggleActiveButton(event.target);
+                showImages(tabId);
             }
-        }
-    }
+        });
 
-    function showImages(showImg, hideImg1, hideImg2) {
-        for (let i = 0; i < showImg.length; i++) {
-            showImg[i].style.display = "block";
-        }
-        for (let i = 0; i < hideImg1.length; i++) {
-            hideImg1[i].style.display = "none";
-        }
-        for (let i = 0; i < hideImg2.length; i++) {
-            hideImg2[i].style.display = "none";
-        }
-    }
-    tabsUl.addEventListener('click', (event) => {
-        let tabLi = event.target.parentNode;
-
-        toggleClass(tabLi, lis, 'is-active');
-
-        //show all images
-        if (event.target.id == "all") {
-            for (let i = 0; i < imgAll.length; i++) {
-                imgAll[i].style.display = "block";
-            }
-        }
-
-         //show blood_donation images
-         if (event.target.id == "blood_donation") {
-            showImages(imgBlood,imgNy, imgOrganic);
-        }
-        //show yoga images
-        if (event.target.id == "yoga") {
-            showImages(imgNy, imgOrganic,imgBlood );
-        }
-
-        // show employment
-        if (event.target.id == "employment") {
-            showImages(imgEmployment, imgNy, imgOrganic);
-        }
-
-        // show deadd
-        if (event.target.id == "deadd") {
-            showImages(imgDeadd, imgNy,imgBlood );
-        }
-
-        // show other images
-        if (event.target.id == "organic") {
-            showImages(imgOrganic, imgDeadd, imgNy);
-        }
-        msnry.layout();
-
-    });
-    grid.addEventListener('click', function (event) {
-        let imgContainer = event.target.parentNode;
-        toggleClass(imgContainer, gridItems, 'grid-item__expanded');
-        msnry.layout();
+        // Expand grid item on click
+        grid.addEventListener('click', function (event) {
+            const imgContainer = event.target.parentNode;
+            imgContainer.classList.toggle('grid-item__expanded');
+            msnry.layout();
+        });
     });
 </script>
+
+
     <?php
     include "footer.php";
     ?>
