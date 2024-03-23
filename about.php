@@ -104,7 +104,7 @@ include "header.php";
             <div class="row">
 
 
-                <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6" >
                     <div class="single-cases mb-40">
                         <div class="cases-img">
                         <a data-fancybox data-width="940" data-height="660" href="assets/img/video/vid-4.mp4"><i class="fa-solid fa-play"></i></a>
@@ -124,7 +124,7 @@ include "header.php";
                     <div class="single-cases mb-40">
                         <div class="cases-img">
                         <a data-fancybox data-width="940" data-height="660" href="assets/img/video/vid-3.mp4"><i class="fa-solid fa-play"></i></a>
-                            <video >
+                            <video height="300">
                                 <source src="assets/img/video/vid-3.mp4" type="video/mp4">
                             </video>
                         </div>

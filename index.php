@@ -3,7 +3,7 @@
     ?>
 
 <main>
-   
+
     <!-- slider Area Start-->
     <div class="slider-area">
         <div class="slider-active header-slider">
@@ -18,13 +18,19 @@
                             <div class="hero__caption">
                                 <h1 data-animation="fadeInUp" data-delay=".6s">Elevating Lives, Empowering
                                     Communities:<br>Together for Tribal Welfare</h1>
-                                <P data-animation="fadeInUp" data-delay=".8s">Join hands with us as we stand united for the noble cause of tribal welfare, deaddiction, and sustainable development. Together, we're effecting real change, uplifting communities, and restoring hope and dignity to lives in need through initiatives such as organic farming, tree plantation, distribution of cows, computer training, blood donation camps, yoga training, pulse examination, examination guidance, and distribution of fertilizer and seed kits. Let's sow the seeds of progress and cultivate a brighter future together.</P>
+                                <P data-animation="fadeInUp" data-delay=".8s">Join hands with us as we stand united for
+                                    the noble cause of tribal welfare, deaddiction, and sustainable development.
+                                    Together, we're effecting real change, uplifting communities, and restoring hope and
+                                    dignity to lives in need through initiatives such as organic farming, tree
+                                    plantation, distribution of cows, computer training, blood donation camps, yoga
+                                    training, pulse examination, examination guidance, and distribution of fertilizer
+                                    and seed kits. Let's sow the seeds of progress and cultivate a brighter future
+                                    together.</P>
                                 <!-- Hero-btn -->
                                 <div class="hero__btn">
                                     <a href="donate.php" class="btn hero-btn mb-10" data-animation="fadeInLeft"
                                         data-delay=".8s">Donate</a>
-                                    <a href="#" class="cal-btn ml-15" data-animation="fadeInRight"
-                                        data-delay="1.0s">
+                                    <a href="#" class="cal-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">
                                         <i class="flaticon-null"></i>
                                         <p>+91 99098 39854</p>
                                     </a>
@@ -172,24 +178,24 @@
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
                     <!-- Section Tittle -->
                     <div class="section-tittle section-tittle2 text-center mb-70">
-                    <h2>Committee Members</h2>
-                       
+                        <h2>Committee Members</h2>
+
                     </div>
                 </div>
             </div>
             <div class="row">
                 <a href="about.php">
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <div class="single-team mb-30">
-                        <div class="team-img">
-                            <img src="assets/img/gallery/vol1.jpeg" alt="">
-                        </div>
-                        <div class="team-caption">
-                            <h3><a href="instructor.html">Mr. Saurav Ganeshbhai Vasava</a></h3>
-                            <p>Committee Member</p>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-team mb-30">
+                            <div class="team-img">
+                                <img src="assets/img/gallery/vol1.jpeg" alt="">
+                            </div>
+                            <div class="team-caption">
+                                <h3><a href="instructor.html">Mr. Saurav Ganeshbhai Vasava</a></h3>
+                                <p>Committee Member</p>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </a>
                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                     <div class="single-team mb-30">
@@ -302,54 +308,65 @@
                         <div class="single-testimonial text-center">
                             <div class="testimonial-caption ">
                                 <!-- founder -->
-                                <div class="testimonial-founder">
-                                    <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/Sureshbhai devjibhai mavchi.jpeg" alt="">
-                                        <span>Sureshbhai devjibhai mavchi</span>
-                                        <p>Village Farmer</p>
+                                <a data-fancybox data-width="940" data-height="660" href="assets/img/video/vid-4.mp4"class="testimonial">
+                                    <div class="testimonial-founder">
+                                        <div class="founder-img mb-40">
+                                            <img src="assets/img/gallery/Sureshbhai devjibhai mavchi.jpeg" alt="">
+                                            <span>Sureshbhai devjibhai mavchi</span>
+                                            <p>Village Farmer</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="testimonial-top-cap">
-                                    <p>“From tiny trees to big success: Growing mangoes, growing wealth all my thanks to SHRI SHRI ADIVASI CHARITABLE TRUST”</p>
-                                </div>
+                                    <div class="testimonial-top-cap">
+                                        <p>“From tiny trees to big success: Growing mangoes, growing wealth all my
+                                            thanks to
+                                            SHRI SHRI ADIVASI CHARITABLE TRUST”</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <!-- Single Testimonial -->
                         <div class="single-testimonial text-center">
                             <div class="testimonial-caption ">
                                 <!-- founder -->
-                                <div class="testimonial-founder">
-                                    <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/sakuben.jpeg" alt="">
-                                        <span>Shakuben gavjibhai gamit</span>
-                                        <p>Village Farmer</p>
+                                <a data-fancybox data-width="940" data-height="660" href="assets/img/video/vid-3.mp4"class="testimonial">
+                                    <div class="testimonial-founder">
+                                        <div class="founder-img mb-40">
+                                            <img src="assets/img/gallery/sakuben.jpeg" alt="">
+                                            <span>Shakuben gavjibhai gamit</span>
+                                            <p>Village Farmer</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="testimonial-top-cap">
-                                    <p>“"Starting small, reaching heights: Mangoes growing, wealth flowing, with heartfelt thanks to SHRI SHRI ADIVASI CHARITABLE TRUST."”</p>
-                                </div>
+                                    <div class="testimonial-top-cap">
+                                        <p>“"Starting small, reaching heights: Mangoes growing, wealth flowing, with
+                                            heartfelt thanks to SHRI SHRI ADIVASI CHARITABLE TRUST."”</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <!-- Single Testimonial -->
                         <div class="single-testimonial text-center">
                             <div class="testimonial-caption ">
                                 <!-- founder -->
-                                <div class="testimonial-founder">
-                                    <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/diluben.jpeg" alt="">
-                                        <span>Diluben rameshbhai gamit</span>
-                                        <p>Village Farmer</p>
+                                <a href="about.php">
+                                    <div class="testimonial-founder">
+                                        <div class="founder-img mb-40">
+                                            <img src="assets/img/gallery/diluben.jpeg" alt="">
+                                            <span>Diluben rameshbhai gamit</span>
+                                            <p>Village Farmer</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="testimonial-top-cap">
-                                    <p>“From one cow, a better life: Growing wealth, thanks to SHRI SHRI ADIVASI CHARITABLE TRUST for generous gift.”</p>
-                                </div>
+                                    <div class="testimonial-top-cap">
+                                        <p>“From one cow, a better life: Growing wealth, thanks to SHRI SHRI ADIVASI
+                                            CHARITABLE TRUST for generous gift.”</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                         <!-- Single Testimonial -->
-                         <div class="single-testimonial text-center">
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial text-center">
                             <div class="testimonial-caption ">
                                 <!-- founder -->
+                                <a href="about.php">
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
                                         <img src="assets/img/gallery/PrakeshBhai.jpeg" alt="">
@@ -358,8 +375,10 @@
                                     </div>
                                 </div>
                                 <div class="testimonial-top-cap">
-                                    <p>“Your blood donation saved my son's life, bringing hope and health to our family. Thank you SHRI SHRI ADIVASI CHARITABLE TRUST your selfless gift.”</p>
+                                    <p>“Your blood donation saved my son's life, bringing hope and health to our family.
+                                        Thank you SHRI SHRI ADIVASI CHARITABLE TRUST your selfless gift.”</p>
                                 </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -420,3 +439,6 @@
 <?php 
 include "footer.php";
 ?>
+<script>
+$('.testimonial').fancybox();
+</script>
