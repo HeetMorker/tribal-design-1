@@ -24,29 +24,31 @@ include "header.php";
             <div class="row justify-content-center">
                 <!-- <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10"> -->
                 <div class="col-12">
-                    <!-- Section Tittle -->
-                    <div class="section-tittle text-center mb-80">
-
-                    </div>
-
                     <!--  MASONARY GALLERY -->
                     <section class="hero is-light is-medium bg-transparent">
-                        <div class="hero-foot container mb-5 ">
-                            <ul id="buttonGroup" class="row justify-content-center">
-                                <li class="col-2 is-active "><button class="btn mas-btn"> <a class=""
+                        <div class="hero-foot mb-5 position-relative" style="overflow-x: hidden;">
+                            <div class="d-flex justify-content-end">
+                                <i id="leftArrow" class="fa fa-arrow-alt-circle-left " style="color:#030E4E"></i>&nbsp;
+                                <i id="rightArrow" class="fa fa-arrow-alt-circle-right" style="color:#030E4E"></i>
+                            </div>
+                            <ul id="buttonGroup" class="d-inline-flex ">
+                                <li class=" is-active "><button class="btn mas-btn"> <a class=""
                                             id="all">All</a></button></li>
-                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="blood_donation">Blood
+                                <li class=" "><button class="btn mas-btn"> <a class="" id="blood_donation">Blood
                                             Donation</a></button></li>
-                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="yoga">Yoga
+                                <li class=" "><button class="btn mas-btn"> <a class="" id="yoga">Yoga
                                             Training</a></button></li>
-                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="employment">Employment
+                                <li class=""><button class="btn mas-btn"> <a class="" id="employment">Employment
                                             Guidance</a></button></li>
-                                <li class="col-2 "><button class="btn mas-btn"> <a class=""
+                                <li class=" "><button class="btn mas-btn"> <a class=""
                                             id="deadd">De-Addiction</a></button></li>
-                                <li class="col-2 "><button class="btn mas-btn"> <a class="" id="organic">Organic
+                                <li class=" "><button class="btn mas-btn"> <a class="" id="organic">Organic
                                             Farming</a></button></li>
-
+                                <li class=" "><button class="btn mas-btn"> <a class="" id="cow">Cow Donation</a></button></li>
+                                <li class=" "><button class="btn mas-btn"> <a class="" id="tree">Tree Planting
+                                            </a></button></li>
                             </ul>
+
                         </div>
                         <div class="grid" id="container">
                             <div class="grid-sizer"></div>
@@ -69,8 +71,6 @@ include "header.php";
                             <div class="grid-item deadd"><img src="assets/img/De addication/6.jpeg" alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/5.jpg" alt="" /></div>
                             <div class="grid-item deadd "><img src="assets/img//De addication/12.jpeg" alt="" /></div>
-                            <div class="grid-item  organic"><img src="assets/img/organic farming/tree1.jpg" alt="" />
-                            </div>
                             <div class="grid-item yoga"><img src="assets/img/other/16.jpeg" alt="" /></div>
                             <div class="grid-item organic"><img src="assets/img/organic farming/fer2.jpg" alt="" />
                             </div>
@@ -78,9 +78,11 @@ include "header.php";
                             <div class="grid-item organic"><img src="assets/img/organic farming/fer1.jpg" alt="" />
                             </div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/yoga2.jpg" alt="" /></div>
-                             <!-- <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
-                            <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div>  -->
-                        </div>
+                             <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg"  alt=""/></div>
+                            <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div>
+                            <div class="grid-item tree"><img src="assets/img/organic farming/tree1.jpg"  alt=""/></div>
+                            <div class="grid-item tree"><img src="assets/img/organic farming/tree2.jpg" alt=""/></div>    
+                        </div> 
                     </section>
                 </div>
 
@@ -95,79 +97,98 @@ include "header.php";
 <script src='https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js'></script>
 <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    // Initialize Masonry grid
-    var grid = document.querySelector('.grid');
-    var msnry = new Masonry(grid, {
-        itemSelector: '.grid-item',
-        columnWidth: '.grid-sizer',
-        percentPosition: true
-    });
-
-    // Element selectors
-    var imageSets = {
-        'all': document.querySelectorAll('.all'),
-        'blood_donation': document.querySelectorAll('.blood_donation'),
-        'yoga': document.querySelectorAll('.yoga'),
-        'employment': document.querySelectorAll('.employment'),
-        'deadd': document.querySelectorAll('.deadd'),
-        'organic': document.querySelectorAll('.organic')
-    };
-
-    // Buttons
-    const tabsUl = document.getElementById('buttonGroup');
-
-    // Function to toggle active class on buttons
-    function toggleActiveButton(clickedButton) {
-        Array.from(tabsUl.children).forEach(child => {
-            child.classList.remove('is-active');
+    document.addEventListener("DOMContentLoaded", function () {
+        // Initialize Masonry grid
+        var grid = document.querySelector('.grid');
+        var msnry = new Masonry(grid, {
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-sizer',
+            percentPosition: true
         });
-        clickedButton.parentNode.classList.add('is-active');
-    }
 
-    // Function to show images based on button clicked
-    function showImages(imageSetToShow) {
-        if (imageSetToShow === 'all') {
-            // Show all images
-            Object.keys(imageSets).forEach(key => {
-                const images = imageSets[key];
-                images.forEach(img => {
-                    img.style.display = 'block';
-                });
+        // Element selectors
+        var imageSets = {
+            'all': document.querySelectorAll('.all'),
+            'blood_donation': document.querySelectorAll('.blood_donation'),
+            'yoga': document.querySelectorAll('.yoga'),
+            'employment': document.querySelectorAll('.employment'),
+            'deadd': document.querySelectorAll('.deadd'),
+            'organic': document.querySelectorAll('.organic'),
+             'cow': document.querySelectorAll('.cow'),
+             'tree': document.querySelectorAll('.tree')
+        };
+
+        // Buttons
+        const tabsUl = document.getElementById('buttonGroup');
+
+        // Function to toggle active class on buttons
+        function toggleActiveButton(clickedButton) {
+            Array.from(tabsUl.children).forEach(child => {
+                child.classList.remove('is-active');
             });
-        } else {
-            // Show images for specific set
-            Object.keys(imageSets).forEach(key => {
-                const images = imageSets[key];
-                const display = (key === imageSetToShow) ? 'block' : 'none';
-                images.forEach(img => {
-                    img.style.display = display;
-                });
-            });
+            clickedButton.parentNode.classList.add('is-active');
         }
-        msnry.layout(); // Layout Masonry
-    }
 
-    // Event listener for button clicks
-    tabsUl.addEventListener('click', (event) => {
-    if (event.target.tagName === 'BUTTON' || event.target.tagName === 'A') {
-        const button = event.target.tagName === 'BUTTON' ? event.target : event.target.closest('button');
-        const tabId = button.querySelector('a').id;
-        toggleActiveButton(button);
-        showImages(tabId);
-    }
-});
+        // Function to show images based on button clicked
+        function showImages(imageSetToShow) {
+            if (imageSetToShow === 'all') {
+                // Show all images
+                Object.keys(imageSets).forEach(key => {
+                    const images = imageSets[key];
+                    images.forEach(img => {
+                        img.style.display = 'block';
+                    });
+                });
+            } else {
+                // Show images for specific set
+                Object.keys(imageSets).forEach(key => {
+                    const images = imageSets[key];
+                    const display = (key === imageSetToShow) ? 'block' : 'none';
+                    images.forEach(img => {
+                        img.style.display = display;
+                    });
+                });
+            }
+            msnry.layout(); // Layout Masonry
+        }
 
-    // Expand grid item on click
-    grid.addEventListener('click', function(event) {
-        const imgContainer = event.target.parentNode;
-        imgContainer.classList.toggle('grid-item__expanded');
-        msnry.layout();
+        // Event listener for button clicks
+        tabsUl.addEventListener('click', (event) => {
+            if (event.target.tagName === 'BUTTON' || event.target.tagName === 'A') {
+                const button = event.target.tagName === 'BUTTON' ? event.target : event.target.closest('button');
+                const tabId = button.querySelector('a').id;
+                toggleActiveButton(button);
+                showImages(tabId);
+            }
+        });
+
+        // Expand grid item on click
+        grid.addEventListener('click', function (event) {
+            const imgContainer = event.target.parentNode;
+            imgContainer.classList.toggle('grid-item__expanded');
+            msnry.layout();
+        });
     });
-});
+</script>
+<script>
+    var translateX = 0;
+    document.getElementById("rightArrow").addEventListener("click", function () {
+        if (translateX != -600) {
+            translateX = translateX - 200;
+            document.getElementById("buttonGroup").style.transform = "translateX(" + translateX + "px)";
+        }
+
+    });
+    document.getElementById("leftArrow").addEventListener("click", function () {
+        if (translateX !=0) {
+            translateX = translateX + 200;
+            document.getElementById("buttonGroup").style.transform = "translateX(" + translateX + "px)";
+        }
+
+    });
 </script>
 
 
 <?php
-    include "footer.php";
-    ?>
+include "footer.php";
+?>

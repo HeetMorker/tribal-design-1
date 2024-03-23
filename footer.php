@@ -177,6 +177,8 @@
 <script src="./assets/js/main.js"></script>
 
 <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+
 
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script>
