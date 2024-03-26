@@ -8370,6 +8370,16 @@ del {
 		border: 5px solid white;
 	}
 }
+.grid-item video {
+  display: block;
+  max-width: 100%;
+  border: 5px solid white;
+}
+@media screen and (max-width: 414px) {
+  .grid-item video {
+      border: 5px solid white;
+  }
+}
 
 .grid-item.grid-item__expanded {
 	width: 66.66%;

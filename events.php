@@ -47,6 +47,8 @@ include "header.php";
                                 <li class=" "><button class="btn mas-btn"> <a class="" id="cow">Cow Donation</a></button></li>
                                 <li class=" "><button class="btn mas-btn"> <a class="" id="tree">Tree Planting
                                             </a></button></li>
+                                <li class=" "><button class="btn mas-btn"> <a class="" id="fest">Adivasi Festivals
+                                            </a></button></li>
                             </ul>
 
                         </div>
@@ -82,6 +84,26 @@ include "header.php";
                             <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg"  alt=""/></div>
                             <div class="grid-item tree"><img src="assets/img/organic farming/tree1.jpg"  alt=""/></div>
                             <div class="grid-item tree"><img src="assets/img/organic farming/tree2.jpg" alt=""/></div>    
+                            <div class="grid-item fest">
+                                <video controls>
+                                    <source src="assets/img/adivasi festival/vid1.mp4" type="video/mp4">
+                                </video>
+                            </div>    
+                            <div class="grid-item fest">
+                                <video controls>
+                                    <source src="assets/img/adivasi festival/vid2.mp4" type="video/mp4">
+                                </video>
+                            </div>   
+                            <div class="grid-item fest">
+                                <video controls>
+                                    <source src="assets/img/adivasi festival/vid3.mp4" type="video/mp4">
+                                </video>
+                            </div>    
+                            <div class="grid-item fest">
+                                <video controls>
+                                    <source src="assets/img/adivasi festival/vid4.mp4" type="video/mp4">
+                                </video>
+                            </div>    
                         </div> 
                     </section>
                 </div>
@@ -115,7 +137,8 @@ include "header.php";
             'deadd': document.querySelectorAll('.deadd'),
             'organic': document.querySelectorAll('.organic'),
              'cow': document.querySelectorAll('.cow'),
-             'tree': document.querySelectorAll('.tree')
+             'tree': document.querySelectorAll('.tree'),
+             'fest': document.querySelectorAll('.fest')
         };
 
         // Buttons
