@@ -28,10 +28,10 @@ include "header.php";
                     <section class="hero is-light is-medium bg-transparent">
                         <div class="hero-foot mb-5 position-relative" style="overflow-x: hidden;">
                             <div class="d-flex justify-content-end">
-                                <i id="leftArrow" class="fa fa-arrow-alt-circle-left " style="color:#030E4E"></i>&nbsp;
-                                <i id="rightArrow" class="fa fa-arrow-alt-circle-right" style="color:#030E4E"></i>
+                                <i id="leftArrow" class="fa-solid fa-angle-left"style="color:#030E4E"></i>&nbsp;
+                                <i id="rightArrow" class="fa-solid fa-angle-right" style="color:#030E4E"></i>
                             </div>
-                            <ul id="buttonGroup" class="d-inline-flex ">
+                            <ul id="buttonGroup" class="d-inline-flex">
                                 <li class=" is-active "><button class="btn mas-btn"> <a class=""
                                             id="all">All</a></button></li>
                                 <li class=" "><button class="btn mas-btn"> <a class="" id="blood_donation">Blood
