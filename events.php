@@ -88,17 +88,17 @@ include "header.php";
                             <div class="grid-item fest">
                                 <div class="cases-img">
                                     <a data-fancybox data-width="940" data-height="660"
-                                        href="assets/img/video/tribal_enjoyment1.mp4"><i
+                                        href="assets/img/adivasi festival/vid1.mp4"><i
                                             class="fa-solid fa-play"></i></a>
                                     <video height="300">
-                                        <source src="assets/img/video/tribal_enjoyment1.mp4" type="video/mp4">
+                                        <source src="assets/img/adivasi festival/vid1.mp4" type="video/mp4">
                                     </video>
                                 </div>
                             </div>
                             <div class="grid-item fest">
                                 <div class="cases-img">
                                     <a data-fancybox data-width="940" data-height="660"
-                                        href="assets/img/adivasi festival/vid1.mp4"><i class="fa-solid fa-play" ></i></a>
+                                        href="assets/img/adivasi festival/vid2.mp4"><i class="fa-solid fa-play" ></i></a>
                                     <video height="300">
                                         <source src="assets/img/adivasi festival/vid2.mp4" type="video/mp4">
                                     </video>
