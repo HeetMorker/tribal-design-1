@@ -53,7 +53,7 @@ include "header.php";
                             </ul>
 
                         </div>
-                        <div class="grid" id="container">
+                        <div class="grid gallery" id="container">
                             <div class="grid-sizer"></div>
                             <div class="grid-item blood_donation"><img
                                     src="assets/img/blood donation/blood_donation.jpg" alt="" /></div>

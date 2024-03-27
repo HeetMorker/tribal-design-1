@@ -3272,7 +3272,7 @@ hr {
 /* line 148, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
 .main-header {
   position: relative;
-  z-index: 333333333333;
+  z-index: 3333;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
 
@@ -8583,4 +8583,11 @@ del {
 }
 .cases-img>a>i{
   color: white !important;
+}
+.gallery .fest video{
+  background-color: transparent !important;
+  aspect-ratio: auto;
+}
+.gallery>.fest>.cases-img::after{
+  display: none !important;
 }
