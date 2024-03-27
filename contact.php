@@ -13,6 +13,11 @@ include "header.php";
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-12">
+                    <div class="mt-4 text-center ">
+                        <p><i>"Reach out and let's talk"</i></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

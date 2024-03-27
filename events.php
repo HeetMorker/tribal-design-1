@@ -14,6 +14,11 @@ include "header.php";
                         </div>
                     </div>
                 </div>
+                <div class="col-xl-12">
+                    <div class="mt-4 text-center ">
+                        <p><i>"Creating Connections, Building Bonds."</i></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -88,8 +93,7 @@ include "header.php";
                             <div class="grid-item fest">
                                 <div class="cases-img">
                                     <a data-fancybox data-width="940" data-height="660"
-                                        href="assets/img/adivasi festival/vid1.mp4"><i
-                                            class="fa-solid fa-play"></i></a>
+                                        href="assets/img/adivasi festival/vid1.mp4"><i class="fa-solid fa-play"></i></a>
                                     <video height="300">
                                         <source src="assets/img/adivasi festival/vid1.mp4" type="video/mp4">
                                     </video>
@@ -98,7 +102,7 @@ include "header.php";
                             <div class="grid-item fest">
                                 <div class="cases-img">
                                     <a data-fancybox data-width="940" data-height="660"
-                                        href="assets/img/adivasi festival/vid2.mp4"><i class="fa-solid fa-play" ></i></a>
+                                        href="assets/img/adivasi festival/vid2.mp4"><i class="fa-solid fa-play"></i></a>
                                     <video height="300">
                                         <source src="assets/img/adivasi festival/vid2.mp4" type="video/mp4">
                                     </video>
