@@ -3272,7 +3272,7 @@ hr {
 /* line 148, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_headerMenu.scss */
 .main-header {
   position: relative;
-  z-index: 3;
+  z-index: 333333333333;
   -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
 }
 
@@ -8464,6 +8464,7 @@ del {
     width: 150px;
     position: absolute;
   top: -30px;
+  z-index: 111111111;
   }
   .p-header {
     padding: 20px 0px;
@@ -8557,7 +8558,7 @@ del {
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: #ffffff;
-  z-index: 999;
+  z-index: 99;
 }
 #buttonGroup li{
   width: 200px;
