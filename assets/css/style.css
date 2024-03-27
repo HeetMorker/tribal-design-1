@@ -8547,6 +8547,13 @@ del {
   position: absolute;
   top: 50%;
   left: 50%;
+  background-color: rgb(207, 198, 198);
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border-radius: 50%;
   transform: translate(-50%, -50%);
   font-size: 40px;
   color: #ffffff;
@@ -8560,4 +8567,19 @@ del {
 #buttonGroup{
   transition: all 0.3s ease;
   transform: translateX(0px);
+}
+/* .cases-img video{position: relative;} */
+.cases-img::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 0;
+}
+.cases-img>a>i{
+  color: white !important;
 }
