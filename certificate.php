@@ -22,45 +22,54 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-6">
-                <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/cer1.jpg"><i class="fa-solid fa-play"></i></a>
-                    <div class="border border-dark">
-                        <img src="assets/img/certificate/cer1.jpg" alt="">
-                    </div>
-                    <p class="certificate-description text-center">Certificate Of Registration-1</p> 
+                    <a data-fancybox="certificate-gallery" data-width="940" data-height="660"
+                        href="assets/img/certificate/cer1.jpg" class="">
+                        <div class="border border-dark">
+                            <img src="assets/img/certificate/cer1.jpg" alt="">
+                        </div>
+                    </a>
+                    <p class="certificate-description text-center">Certificate Of Registration-1</p>
                 </div>
+
                 <div class="col-lg-6">
-                <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/cer3.jpg"><i class="fa-solid fa-play"></i></a>
-                    <div class="border border-dark">
-                        <img src="assets/img/certificate/cer3.jpg" alt="">
-                    </div>
+                    <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/cer3.jpg">
+                        <div class="border border-dark">
+                            <img src="assets/img/certificate/cer3.jpg" alt="">
+                        </div>
+                    </a>
                     <p class="certificate-description text-center">Certificate Of Regisration-2</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/cer2.jpg"><i class="fa-solid fa-play"></i></a>
-                    <div class=" border border-dark h-1093">
-                        <img src="assets/img/certificate/cer2.png" alt="">
-                    </div>
-                    <p class="certificate-description text-center">Certificate of The Center For Entrepreneurship Development</p>
+                    <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/cer2.jpg">
+                        <div class=" border border-dark h-1093">
+                            <img src="assets/img/certificate/cer2.png" alt="">
+                        </div>
+                    </a>
+                    <p class="certificate-description text-center">Certificate of The Center For Entrepreneurship
+                        Development</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/Fcra_original.png"><i class="fa-solid fa-play"></i></a>
-                    <div class=" border border-dark h-1093">
-                        <img src="assets/img/certificate/Fcra_original.png" alt="">
-                    </div>
+                    <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/Fcra_original.png">
+                        <div class=" border border-dark h-1093">
+                            <img src="assets/img/certificate/Fcra_original.png" alt="">
+                        </div>
+                    </a>
                     <p class="certificate-description text-center">FCRA Certificate</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/4.jpeg"><i class="fa-solid fa-play"></i></a>
-                    <div class=" border border-dark h-1093">
-                        <img src="assets/img/certificate/4.jpeg" alt="">
-                    </div>
+                    <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/4.jpeg">
+                        <div class=" border border-dark h-1093">
+                            <img src="assets/img/certificate/4.jpeg" alt="">
+                        </div>
+                    </a>
                     <p class="certificate-description text-center">Form No 10AC</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/5.jpeg"><i class="fa-solid fa-play"></i></a>
-                    <div class=" border border-dark h-1093">
-                        <img src="assets/img/certificate/5.jpeg" alt="">
-                    </div>
+                    <a data-fancybox data-width="940" data-height="660" href="assets/img/certificate/5.jpeg">
+                        <div class=" border border-dark h-1093">
+                            <img src="assets/img/certificate/5.jpeg" alt="">
+                        </div>
+                    </a>
                     <p class="certificate-description text-center">Form No 10AC</p>
                 </div>
             </div>
@@ -73,17 +82,14 @@
 include "footer.php";
 ?>
 <script>
-    $(document).ready(function() {
-        // Initialize fancybox
-        $("[data-fancybox='certificateGallery']").fancybox({
-            // Add navigation arrows
-            infobar: false,
-            toolbar: false,
-            arrows: true,
-            // Open the fancybox when clicking on the image
-            clickContent: function(current, event) {
-                return current.type === "image" ? "zoom" : false;
-            }
-        });
+$('.border img').click(function() {
+    $(this).parent().find('a').click();
+});
+
+$(document).ready(function() {
+    $('[data-fancybox="certificate-gallery"]').fancybox({
+        buttons: ["close"],
+        loop: true
     });
+});
 </script>
