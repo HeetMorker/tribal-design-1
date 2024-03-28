@@ -8570,7 +8570,7 @@ del {
   transform: translateX(0px);
 }
 /* .cases-img video{position: relative;} */
-.cases-img::after{
+/* .cases-img::after{
   content: "";
   width: 100%;
   height: 100%;
@@ -8580,7 +8580,7 @@ del {
   background-color: black;
   opacity: 0.5;
   z-index: 0;
-}
+} */
 .cases-img>a>i{
   color: white !important;
 }
