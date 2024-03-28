@@ -1,5 +1,47 @@
 <?php
 include "header.php";
+
+// Insert Query
+if (isset($_REQUEST["register"])) {
+    $firstname = $_REQUEST["firstname"];
+    $lastname = $_REQUEST["lastname"];
+    $dob = $_REQUEST["dob"];
+    $gender = $_REQUEST["gender"];
+    $phone_no = $_REQUEST["phoneno"];
+    $email = $_REQUEST["email"];
+    $marital_s = $_REQUEST["marital_status"];
+    $state = $_REQUEST["state"];
+    $city = $_REQUEST["city"];
+    $pincode = $_REQUEST["pincode"];
+    $occupation = $_REQUEST["occupation"];
+    $blood_g = $_REQUEST["blood_group"];
+    $password = $_REQUEST["confirm-password"];
+
+    try {
+        $stmt = $obj->con1->prepare(
+            "INSERT INTO `registration`(`firstname`, `lastname`, `dob`, `gender`, `phone_no`, `email`, `marital_status`, `state`, `city`, `pincode`, `occupation`, `blood_group`,`password`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)"
+        );
+        $stmt->bind_param("ssssissssisss", $firstname, $lastname, $dob, $gender, $phone_no, $email, $marital_s, $state, $city, $pincode, $occupation, $blood_g, $password);
+        $Resp = $stmt->execute();
+        if (!$Resp) {
+            throw new Exception(
+                "Problem in adding! " . strtok($obj->con1->error, "(")
+            );
+        }
+        $stmt->close();
+    } catch (\Exception $e) {
+        setcookie("sql_error", urlencode($e->getMessage()), time() + 3600, "/");
+    }
+
+    if ($Resp) {
+        setcookie("msg", "data", time() + 3600, "/");
+        header("location:index.php");
+    } else {
+        setcookie("msg", "fail", time() + 3600, "/");
+        header("location:index.php");
+    }
+}
+
 ?>
 <main>
     
@@ -86,23 +128,50 @@ include "header.php";
                                 <option>Divorced</option>
                                 <option>Widowed</option>
                             </select>
+                            
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputState">State</label>
-                                <select id="inputState" class="form-control" name="state">
-                                    <option selected>Choose...</option>
-                                    <option>...</option>
-                                </select>
+                                <select id="inputState" class="form-control" name="state" required onchange="fillCity(this.value)">
+                                <option value="">Select State</option>
+                                <?php
+                                $stmt = $obj->con1->prepare("SELECT * FROM state");
+                                $stmt->execute();
+                                $Resp = $stmt->get_result();
+                                $stmt->close();
+
+                                while ($result = mysqli_fetch_array($Resp)) {
+                                ?>
+                                    <option value="<?php echo $result["id"]; ?>" <?php echo (isset($mode) && $data["state"] == $result["id"]) ? "selected" : ""; ?>>
+                                        <?php echo $result["name"]; ?>
+                                    </option>
+                                <?php
+                                }
+                                ?>
+                                
+                            </select>
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="exampleFormControlSelect2">City</label>
-                                <select class="form-control" id="exampleFormControlSelect2" name="city">
-                                    <option selected>Choose...</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                <select class="form-control" id="city" name="city">
+                                    <?php
+                                if(isset($mode)){
+                                $s = $data["state"];
+                                $stmt = $obj->con1->prepare("select * from city WHERE state_id=?");
+                                $stmt->bind_param("i", $s);
+                                $stmt->execute();
+                                $res = $stmt->get_result(); 
+                                $stmt->close();
+                                while ($result = mysqli_fetch_array($res)) {
+                                ?>
+                                    <option value="<?php echo $result["id"]; ?>" <?php echo (isset($mode) && $data["city"] == $result["id"]) ? "selected" : ""; ?>>
+                                        <?php echo $result["city_nm"]; ?>
+                                    </option>
+                                <?php
+                                }
+                            }
+                                ?>
                                 </select>
                             </div>
 
@@ -144,7 +213,8 @@ include "header.php";
                                     name="confirm_password">
                             </div>
                         </div>
-                        <button type="submit" class="btn btn-primary" name="create">Register</button>
+                        <button type="submit" class="btn btn-primary" name="register" id="register">Register</button>
+                    </button>
                     </form>
                 </div>
             </div>

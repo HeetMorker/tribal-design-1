@@ -1,3 +1,14 @@
+<?php
+include "db_connect.php";
+$obj = new DB_Connect();
+date_default_timezone_set('Asia/Kolkata');
+
+session_start();
+
+if (!isset($_SESSION["userlogin"])) {
+    header("location:index.php");
+}
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
