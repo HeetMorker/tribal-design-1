@@ -1,5 +1,41 @@
 <?php
 include "header.php";
+
+// Insert Query
+if (isset($_REQUEST["save"])) {
+    $firstname = $_REQUEST["firstname"];
+    $lastname = $_REQUEST["lastname"];
+    $phone_no = $_REQUEST["phoneno"];
+    $email = $_REQUEST["email"];
+    $country = $_REQUEST["country"];
+    $reason = $_REQUEST["reason"];
+
+    try {
+        $stmt = $obj->con1->prepare(
+            "INSERT INTO `donation`(`firstname`, `lastname`,`phone_no`, `email`, `country`, `reason`) VALUES (?,?,?,?,?,?)"
+        );
+        $stmt->bind_param("ssisss", $firstname, $lastname, $phone_no, $email, $country, $reason);
+        $Resp = $stmt->execute();
+        if (!$Resp) {
+            throw new Exception(
+                "Problem in adding! " . strtok($obj->con1->error, "(")
+            );
+        }
+        $stmt->close();
+    } catch (\Exception $e) {
+        setcookie("sql_error", urlencode($e->getMessage()), time() + 3600, "/");
+    }
+
+    if ($Resp) {
+        setcookie("msg", "data", time() + 3600, "/");
+        header("location:index.php");
+    } else {
+        setcookie("msg", "fail", time() + 3600, "/");
+        header("location:index.php");
+    }
+}
+
+
 ?>
 <main>
     <!-- Hero Start -->
@@ -30,7 +66,7 @@ include "header.php";
                     <h2 class="contact-title">To donate please fill the form below and we will contact you</h2>
                 </div>
                 <div class="col-lg-7 col-md-10">
-                    <form action="bootstrapform.php" class="" method="post">
+                    <form method="post">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="exampleInputfirstname">First Name*</label>
@@ -46,7 +82,7 @@ include "header.php";
                         <div class="form-row">
                             <div class="form-group  col-md-6">
                                 <label for="exampleInputphoneno">Phone Number</label>
-                                <input type="text" class="form-control" id="exampleInputphoneno" name="phoneno">
+                                <input type="text" class="form-control" id="exampleInputphoneno" name="phoneno" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10">
                             </div>
                             <div class="form-group  col-md-6">
                                 <label for="exampleInputEmail1">Email address</label>
@@ -57,32 +93,23 @@ include "header.php";
                         <div class="form-row">
                             <div class="form-group col-xl-12">
                                 <label for="inputCountry">Country</label>
-                                <select id="inputCountry" class="form-control" name="Country">
-                                    <option selected>Choose...</option>
-                                    <option>...</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-xl-12">
-                                <label for="exampleFormControlSelect3">Cause</label>
-                                <select class="form-control" id="exampleFormControlSelect3" name="occupation">
-                                    <option selected>Choose...</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                <select id="inputCountry" class="form-control" name="country">
+                                    <option selected>Select Country</option>
+                                    <option>India</option>
+                                    <option>Japan</option>
+                                    <option>China</option>
+                                    <option>Germany</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="form-group">
                             <label for="exampleInputReason">Reason</label>
-                            <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                            <textarea class="form-control w-100" name="reason" id="message" cols="30" rows="9"
                                 onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
                                 placeholder=" Enter Message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary" name="create">Submit</button>
+                        <button type="submit" class="btn btn-primary" name="save" id="save">Submit</button>
                     </form>
                 </div>
                 <!-- <div class="col-lg-6 col-md-12">

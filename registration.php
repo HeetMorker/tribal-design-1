@@ -15,8 +15,10 @@ if (isset($_REQUEST["register"])) {
     $pincode = $_REQUEST["pincode"];
     $occupation = $_REQUEST["occupation"];
     $blood_g = $_REQUEST["blood_group"];
-    $password = $_REQUEST["confirm-password"];
+    $password = $_REQUEST["password"];
+    $confirm_password = $_REQUEST["confirm_password"];
 
+    if($password == $confirm_password){
     try {
         $stmt = $obj->con1->prepare(
             "INSERT INTO `registration`(`firstname`, `lastname`, `dob`, `gender`, `phone_no`, `email`, `marital_status`, `state`, `city`, `pincode`, `occupation`, `blood_group`,`password`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)"
@@ -38,9 +40,11 @@ if (isset($_REQUEST["register"])) {
         header("location:index.php");
     } else {
         setcookie("msg", "fail", time() + 3600, "/");
-        header("location:index.php");
+        header("location:register.php");
+    }
     }
 }
+
 
 ?>
 <main>
@@ -73,7 +77,7 @@ if (isset($_REQUEST["register"])) {
                     <h2 class="contact-title">Personal Info</h2>
                 </div>
                 <div class="col-12">
-                    <form action="bootstrapform.php" class="" method="post">
+                    <form method="post">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="exampleInputfirstname">First Name*</label>
@@ -111,7 +115,7 @@ if (isset($_REQUEST["register"])) {
                         <div class="form-row">
                             <div class="form-group  col-md-6">
                                 <label for="exampleInputphoneno">Phone Number</label>
-                                <input type="text" class="form-control" id="exampleInputphoneno" name="phoneno">
+                                <input type="text" class="form-control" id="exampleInputphoneno" name="phoneno" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10">
                             </div>
                             <div class="form-group  col-md-6">
                                 <label for="exampleInputEmail1">Email address</label>
@@ -122,8 +126,8 @@ if (isset($_REQUEST["register"])) {
                         <div class="form-group">
                             <label for="exampleFormControlSelect1">Marital Status</label>
                             <select class="form-control" id="exampleFormControlSelect1" name="marital_status">
-                                <option selected>Choose...</option>
-                                <option>Single</option>
+                                <option selected>Select Marital Status</option>
+                                <option>Unmarried</option>
                                 <option>Married</option>
                                 <option>Divorced</option>
                                 <option>Widowed</option>
@@ -155,19 +159,20 @@ if (isset($_REQUEST["register"])) {
                             <div class="form-group col-md-4">
                                 <label for="exampleFormControlSelect2">City</label>
                                 <select class="form-control" id="city" name="city">
-                                    <?php
-                                if(isset($mode)){
-                                $s = $data["state"];
-                                $stmt = $obj->con1->prepare("select * from city WHERE state_id=?");
-                                $stmt->bind_param("i", $s);
-                                $stmt->execute();
-                                $res = $stmt->get_result(); 
-                                $stmt->close();
-                                while ($result = mysqli_fetch_array($res)) {
+                                    
+                                <?php
+                                    if(isset($mode)){
+                                    $s = $data["state"];
+                                    $stmt = $obj->con1->prepare("SELECT * from city WHERE state_id=?");
+                                    $stmt->bind_param("i", $s);
+                                    $stmt->execute();
+                                    $res = $stmt->get_result(); 
+                                    $stmt->close();
+                                    while ($result = mysqli_fetch_array($res)) {
                                 ?>
-                                    <option value="<?php echo $result["id"]; ?>" <?php echo (isset($mode) && $data["city"] == $result["id"]) ? "selected" : ""; ?>>
+                                <option value="<?php echo $result["id"]; ?>" <?php echo (isset($mode) && $data["city"] == $result["id"]) ? "selected" : ""; ?>>
                                         <?php echo $result["city_nm"]; ?>
-                                    </option>
+                                </option>
                                 <?php
                                 }
                             }
@@ -177,39 +182,36 @@ if (isset($_REQUEST["register"])) {
 
                             <div class="form-group col-md-2">
                                 <label for="inputZip">Pincode</label>
-                                <input type="text" class="form-control" id="inputZip" name="pincode">
+                                <input type="text" class="form-control" id="pincode" name="pincode">
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="exampleFormControlSelect3">Occupation</label>
-                                <select class="form-control" id="exampleFormControlSelect3" name="occupation">
-                                    <option selected>Choose...</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </select>
+                                <input type="text" class="form-control" id="Occupation" name="occupation">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="exampleFormControlSelect4">Blood-Group</label>
                                 <select class="form-control" id="exampleFormControlSelect4" name="blood_group">
-                                    <option selected>Choose...</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                    <option selected>Select Blood Group</option>
+                                    <option>A+</option>
+                                    <option>A-</option>
+                                    <option>B+</option>
+                                    <option>B-</option>
+                                    <option>O+</option>
+                                    <option>O-</option>
+                                    <option>AB+</option>
                                 </select>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="exampleInputPassword">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword" name="password">
+                                <input type="password" class="form-control" id="password" name="password">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="confirm-password">Confirm Password</label>
-                                <input type="password" class="form-control" id="confirm-password"
+                                <input type="password" class="form-control" id="confirm_password"
                                     name="confirm_password">
                             </div>
                         </div>
@@ -226,7 +228,22 @@ if (isset($_REQUEST["register"])) {
 
 
 
+    <script type="text/javascript">
+    
+    
+
+    function fillCity(stid) {
+        const xhttp = new XMLHttpRequest();
+        xhttp.open("GET", "getcities.php?sid=" + stid);
+        xhttp.send();
+        xhttp.onload = function() {
+            document.getElementById("city").innerHTML = xhttp.responseText;
+        }
+    }
+</script>
 </main>
+
+
 <?php
 include "footer.php";
 ?>
