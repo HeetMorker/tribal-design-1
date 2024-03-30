@@ -31,7 +31,7 @@ if (isset($_REQUEST["save"])) {
         header("location:index.php");
     } else {
         setcookie("msg", "fail", time() + 3600, "/");
-        header("location:index.php");
+        header("location:donation.php");
     }
 }
 
@@ -58,7 +58,7 @@ if (isset($_REQUEST["save"])) {
         </div>
     </div>
     <!-- Hero End -->
-    <!-- donation form strat -->
+    <!-- donation form start -->
     <section class="contact-section donate-section">
         <div class="container">
             <div class="row align-items-center ">

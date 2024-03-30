@@ -43,6 +43,9 @@ if (isset($_REQUEST["register"])) {
         header("location:register.php");
     }
     }
+    else{
+        //Show user that password and confirm password don't match!!
+    }
 }
 
 
