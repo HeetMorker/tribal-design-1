@@ -200,7 +200,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 ">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/vol2.png" alt="">
+                            <img src="assets/img/gallery/vol2.jpeg" alt="">
                         </div>
                         <div class="team-caption">
                             <h3><a href="instructor.html">Mrs. Meenaben Gavjibhai Vasava
