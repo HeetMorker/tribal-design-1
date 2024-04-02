@@ -219,7 +219,6 @@ if (isset($_REQUEST["register"])) {
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary" name="register" id="register">Register</button>
-                    </button>
                     </form>
                 </div>
             </div>
