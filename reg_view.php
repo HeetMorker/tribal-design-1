@@ -50,8 +50,8 @@
 include "db_connect.php";
 $obj = new DB_Connect();
 
-    $stmt = $obj->con1->prepare("SELECT * FROM registration where id=?");
-    $stmt->bind_param('i', $editId);
+    $stmt = $obj->con1->prepare("SELECT * FROM registration where id=37");
+    // $stmt->bind_param('i', $editId);
     $stmt->execute();
     $Resp = $stmt->get_result();
     $data = $Resp->fetch_assoc();
@@ -136,7 +136,7 @@ if (isset($_REQUEST["update"])) {
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="exampleInputfirstname">First Name*</label>
-                                    <!-- <input type="hidden" name="register_id" value="<?php echo $data['id'] ?>"> -->
+                                    <input type="hidden" name="register_id" value="<?php echo $data['id'] ?>">
                                     <input type="text" class="form-control" id="exampleInputfirstname" name="firstname"
                                         placeholder="" value="<?php echo $data['firstname'] ?>" required>
                                 </div>
