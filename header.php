@@ -113,6 +113,9 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                     <div class="header-right-btn d-none d-lg-block ml-20">
                                         <a href="registration.php" class="btn btn-primary">Register</a>
                                     </div>
+                                    <div class="header-right-btn d-none d-lg-block ml-10">
+                                        <a href="login.php" class="btn btn-primary">Log in</a>
+                                    </div>
                                 </div>
                             </div>
                             <!-- Mobile Menu -->

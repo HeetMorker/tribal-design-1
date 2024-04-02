@@ -42,38 +42,47 @@ if(isset($_REQUEST["login"])){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.jpg">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" class="rel">
+      <!-- CSS -->
+      <link rel="stylesheet" href="assets/css/style.css" class="rel">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-</head>
-<style>
-  .vh-100{
-    height: 100vh;
-  }
-  .object-fit-cover{
-    object-fit: cover;
-  }
-  .login button {
-            padding: 10px 20px; 
-        } 
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .vh-100 {
+            height: 100vh;
+        }
+
+        .object-fit-cover {
+            object-fit: cover;
+        }
+
+        .login button {
+            padding: 10px 20px;
+        }
+
         .input-field {
-  background-color: #f0f0f0;
-  height: 55px;
-  color: #acacac;
-  font-size: 1.1rem;
-}
+            background-color: #f0f0f0;
+            height: 55px;
+            color: #acacac;
+            font-size: 1.1rem;
+        }
 
-</style>
-
+        @media (max-width: 576px) {
+            .login {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
 <body class="">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-6 d-flex align-items-center justify-content-center px-0  ">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center px-0">
                 <div class="w-100">
-                    <img src="assets/img/logo/logo.jpeg" alt="" class="vh-100 img-fluid object-fit-cover  ">
+                    <img src="assets/img/logo/logo.jpeg" alt="" class="vh-100 img-fluid object-fit-cover">
                 </div>
             </div>
-            <div class="col-6 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 d-flex align-items-center justify-content-center">
                 <div class="card w-75">
                     <div class="card-body">
                         <form class="login p-3">
@@ -85,11 +94,8 @@ if(isset($_REQUEST["login"])){
                             <div class="form-group">
                                 <input type="password" placeholder="OTP" class="form-control mb-2 input-field">
                             </div>
-                            <button type="submit" class="btn ">Log In</button>
-                            <div class="links mt-2">
-                                <a href="#">Forgot password</a>
-                                <a href="#" class="ml-2">Register</a>
-                            </div>
+                            <button type="submit" class="btn btn-primary">Log In</button>
+        
                         </form>
                     </div>
                 </div>
@@ -97,9 +103,13 @@ if(isset($_REQUEST["login"])){
         </div>
     </div>
     
-    
+    <!-- Bootstrap and other scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 
 
 
