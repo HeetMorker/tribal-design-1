@@ -46,7 +46,7 @@ if(isset($_REQUEST["login"])){
       <link rel="stylesheet" href="assets/css/style.css" class="rel">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
     <style>
         .vh-100 {
             height: 100vh;
@@ -54,6 +54,11 @@ if(isset($_REQUEST["login"])){
 
         .object-fit-cover {
             object-fit: cover;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
         }
 
         .login button {
@@ -84,17 +89,19 @@ if(isset($_REQUEST["login"])){
             </div>
             <div class="col-lg-6 d-flex align-items-center justify-content-center">
                 <div class="card w-75">
-                    <div class="card-body">
+                    <div class="card-body p-4">
                         <form class="login p-3">
-                            <h2>Welcome, User!</h2>
-                            <p>Please Log in</p>
+                        <div class="">
+                        <h3>Welcome, User!</h3>
+                    </div>
+                            <p class="">Please Log in</p>
                             <div class="form-group">
                                 <input type="text" placeholder="Email id" class="form-control mb-2 input-field">
                             </div>
                             <div class="form-group">
                                 <input type="password" placeholder="OTP" class="form-control mb-2 input-field">
                             </div>
-                            <button type="submit" class="btn btn-primary">Log In</button>
+                            <button type="submit" class="btn">Log In</button>
         
                         </form>
                     </div>
