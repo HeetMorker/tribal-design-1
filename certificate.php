@@ -27,7 +27,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-6">
-                    <a data-fancybox data-src="assets/img/certificate/cer1.jpg"
+                    <a  data-fancybox="gallery" data-src="assets/img/certificate/cer1.jpg"
                         data-caption="Certificate Of Registration-1">
                         <div class="border border-dark">
                             <img src="assets/img/certificate/cer1.jpg" alt="">
@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="col-lg-6">
-                    <a data-fancybox data-src="assets/img/certificate/cer3.jpg"
+                    <a data-fancybox="gallery" data-src="assets/img/certificate/cer3.jpg"
                         data-caption="Certificate Of Registration-2">
                         <div class="border border-dark">
                             <img src="assets/img/certificate/cer3.jpg" alt="">
@@ -46,7 +46,7 @@
                     <p class="certificate-description text-center">Certificate Of Regisration-2</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                    <a data-fancybox data-src="assets/img/certificate/certificate.png" data-caption="Certificate of The Center For Entrepreneurship
+                    <a  data-fancybox="gallery"data-src="assets/img/certificate/certificate.png" data-caption="Certificate of The Center For Entrepreneurship
                         Development">
                         <div class=" border border-dark h-1093">
                             <img src="assets/img/certificate/certificate.png" alt="">
@@ -56,7 +56,7 @@
                         Development</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                    <a data-fancybox data-src="assets/img/certificate/Fcra_original.png"
+                    <a data-fancybox="gallery" data-src="assets/img/certificate/Fcra_original.png"
                         data-caption="FCRA Certificate">
                         <div class=" border border-dark h-1093">
                             <img src="assets/img/certificate/Fcra_original.png" alt="">
@@ -65,7 +65,7 @@
                     <p class="certificate-description text-center">FCRA Certificate</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                    <a data-fancybox data-src="assets/img/certificate/4.jpeg" data-caption="Form No 10AC">
+                    <a data-fancybox="gallery" data-src="assets/img/certificate/4.jpeg" data-caption="Form No 10AC">
                         <div class=" border border-dark h-1093">
                             <img src="assets/img/certificate/4.jpeg" alt="">
                         </div>
@@ -73,7 +73,7 @@
                     <p class="certificate-description text-center">Form No 10AC</p>
                 </div>
                 <div class="col-lg-6 mt-4">
-                    <a data-fancybox data-src="assets/img/certificate/5.jpeg" data-caption="Form No 10AC">
+                    <a data-fancybox="gallery" data-src="assets/img/certificate/5.jpeg" data-caption="Form No 10AC">
                         <div class=" border border-dark h-1093">
                             <img src="assets/img/certificate/5.jpeg" alt="">
                         </div>
@@ -96,7 +96,8 @@ $('.border img').click(function() {
 
 $(document).ready(function() {
     $('[data-fancybox="certificate-gallery"]').fancybox({
-        buttons: ["close"],
+        toolbar: false,
+        buttons: ["close", "arrowLeft", "arrowRight"],
         loop: true
     });
 });

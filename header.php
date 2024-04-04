@@ -107,10 +107,10 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                         </nav>
                                     </div>
                                     <!-- Header-btn -->
-                                    <div class="header-right-btn d-none d-lg-block ml-20">
+                                    <div class="header-right-btn d-none d-lg-block ml-10">
                                         <a href="donate.php" class="btn btn-primary">Donate</a>
                                     </div>
-                                    <div class="header-right-btn d-none d-lg-block ml-20">
+                                    <div class="header-right-btn d-none d-lg-block ml-10">
                                         <a href="registration.php" class="btn btn-primary">Register</a>
                                     </div>
                                     <div class="header-right-btn d-none d-lg-block ml-10">
