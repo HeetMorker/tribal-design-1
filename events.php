@@ -126,6 +126,15 @@ include "header.php";
                                     </video>
                                 </div>
                             </div>
+                            <div class="grid-item fest">
+                                <div class="cases-img">
+                                    <a data-fancybox data-width="940" data-height="660"
+                                        href="assets/img/adivasi festival/vid3.mp4"><i class="fa-solid fa-play"></i></a>
+                                    <video height="300">
+                                        <source src="assets/img/adivasi festival/vid5.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
                         </div>
                     </section>
                 </div>
