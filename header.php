@@ -172,9 +172,9 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                             <div class="col-lg-12 mx-auto">
                                 <form>
                                     <div class="card">
-                                        <div class="card-body p-5 text-center"
+                                        <div class="card-body p-5  "
                                             style="height: 500px; display: flex; flex-direction: column; justify-content: center;">
-                                            <h2 class="mb-4">Login here Using Email & Password</h2>
+                                            <p class="mb-3">Please Log in</p>
                                             <div class="form-group">
                                                 <input type="text" placeholder="Email id"
                                                     class="form-control mb-3 custom-input">
