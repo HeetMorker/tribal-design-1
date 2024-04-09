@@ -183,13 +183,11 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                                 <input type="password" placeholder="Password"
                                                     class="form-control mb-3 custom-input">
                                             </div>
-                                            <div class="d-flex ">
-                                                <button type="submit "
-                                                    class="btn btn-primary btn-block w-50 ">Log In</button>
-                                                <button type="button"
-                                                    class="btn  btn-block w-50  mx-2 "
-                                                    data-dismiss="modal">Close</button>
+                                            <div class="d-flex">
+                                                <button type="submit" class="btn btn-primary btn-block flex-fill ">Log In</button>
+                                                <button type="button" class="btn btn-secondary btn-block flex-fill ml-2 mt-0 " data-dismiss="modal">Close</button>
                                             </div>
+                                            
                                         </div>
                                     </div>
                                 </form>
