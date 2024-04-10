@@ -1,6 +1,12 @@
 <?php
 include "header.php";
 
+
+// if (!isset($_SESSION["userlogin"])) {
+//     header("location:index.php");
+// }
+
+
 // Insert Query
 if (isset($_REQUEST["save"])) {
     $firstname = $_REQUEST["firstname"];

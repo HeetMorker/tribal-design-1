@@ -8,6 +8,36 @@ session_start();
 // if (!isset($_SESSION["userlogin"])) {
 //     header("location:index.php");
 // }
+
+
+if(isset($_REQUEST["login"])){
+    session_start();
+    
+    $email = $_REQUEST["email"];
+    $pass = $_REQUEST["password"];
+    
+    $qr = $obj->con1->prepare("SELECT * FROM registration where email=? and binary(password)=?");
+    $qr->bind_param("ss",$email,$pass);
+    $qr->execute();
+    $result = $qr->get_result();
+    $qr->close();
+    $row=mysqli_fetch_array($result);
+    
+    if($row["email"]==$email && $row["password"]==$pass)
+    // if($username == "admin" && $pass == "admin")
+    {
+        $_SESSION["userlogin"]="true";
+        $_SESSION["id"]=$row["id"];
+        $_SESSION["email"]=$row["email"];
+        header("location:donate.php");
+    }
+    else
+    {
+        setcookie("login", "wrong_pass",time()+3600,"/");
+        header("location:about.php");	
+    }
+}
+
 ?>
 
 <!doctype html>
@@ -167,7 +197,7 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                         <div class="container-fluid">
                             
                             <div class="col-lg-12 mx-auto">
-                                <form>
+                                <form method="post">
                                     <div class="card p-3">
                                         <div class="card-body "
                                             style=" display: flex; flex-direction: column; justify-content: center;">
@@ -176,15 +206,15 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
                                                 </div>
                                             <p class="mb-3">Login</p>
                                             <div class="form-group">
-                                                <input type="text" placeholder="Email id"
+                                                <input type="text" placeholder="Email id" name="email" id="email"
                                                     class="form-control mb-3 custom-input">
                                             </div>
                                             <div class="form-group">
-                                                <input type="password" placeholder="Password"
+                                                <input type="password" placeholder="Password" name="password" id="password"
                                                     class="form-control mb-3 custom-input">
                                             </div>
                                             <div class="d-flex">
-                                                <button type="submit" class="btn btn-primary btn-block flex-fill ">Log In</button>
+                                                <button type="submit" name="login" id="login" class="btn btn-primary btn-block flex-fill ">Log In</button>
                                                 <button type="button" class="btn btn-secondary btn-block flex-fill ml-2 mt-0 " data-dismiss="modal">Close</button>
                                             </div>
                                             
