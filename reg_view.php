@@ -292,8 +292,13 @@ if (isset($_REQUEST["update"])) {
                                         name="confirm_password" value="<?php echo $data['password'] ?>">
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary mr-3" name="update" id="update">Update</button>
-                            <button type="submit" class="btn btn-primary" name="close" id="close">Close</button>
+                            <div class="mt-2">
+                                <button type="submit" class="btn btn-primary mr-3" name="update"
+                                    id="update">Update</button>
+                                <button type="submit" class="btn btn-primary mr-3" name="close"
+                                    id="close">Close</button>
+                                <button type="submit" class="btn btn-primary" name="logout" id="logout">Logout</button>
+                            </div>
                         </form>
                     </div>
                 </div>
