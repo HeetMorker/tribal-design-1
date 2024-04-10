@@ -69,7 +69,7 @@ $stmt = $obj->con1->prepare("SELECT c1.event_name,i1.img FROM `event_category` c
                             {
                            ?>
                             <div class="grid-item <?php echo $data['event_name']; ?>">
-                             <img src="assets/img/events<?php echo $data['img']; ?>" alt="" />
+                             <img src="assets/img/events/<?php echo $data['img']; ?>" alt="" />
                             </div> 
                             <?php } ?>
                             <!-- <div class="grid-item employment"><img src="assets/img/employee guidance/eg1.jpg" alt="" />
