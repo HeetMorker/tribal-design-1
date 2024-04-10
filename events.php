@@ -1,5 +1,9 @@
 <?php
 include "header.php";
+$stmt = $obj->con1->prepare("SELECT c1.event_name,i1.img FROM `event_category` c1, `event_images` i1 WHERE c1.event_id=i1.event_id");
+    $stmt->execute();
+    $Resp = $stmt->get_result();
+    $stmt->close();
 ?>
 <!-- header end -->
 <main>
@@ -60,9 +64,15 @@ include "header.php";
                         </div>
                         <div class="grid gallery" id="container">
                             <div class="grid-sizer"></div>
-                            <div class="grid-item blood_donation"><img
-                                    src="assets/img/blood donation/blood_donation.jpg" alt="" /></div>
-                            <div class="grid-item employment"><img src="assets/img/employee guidance/eg1.jpg" alt="" />
+                           <?php 
+                           while($data = $Resp->fetch_assoc())
+                            {
+                           ?>
+                            <div class="grid-item <?php echo $data['event_name']; ?>">
+                             <img src="assets/img/events/<?php echo $data['img']; ?>" alt="" />
+                            </div> 
+                            <?php } ?>
+                            <!-- <div class="grid-item employment"><img src="assets/img/employee guidance/eg1.jpg" alt="" />
                             </div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/1.jpg" alt="" /></div>
                             <div class="grid-item yoga"><img src="assets/img/yoga/3.jpg" alt="" /></div>
@@ -89,7 +99,8 @@ include "header.php";
                             <div class="grid-item cow"><img src="assets/img/cow/cow1.jpg" alt="" /></div>
                             <div class="grid-item cow"><img src="assets/img/cow/cow2.jpg" alt="" /></div>
                             <div class="grid-item tree"><img src="assets/img/organic farming/tree1.jpg" alt="" /></div>
-                            <div class="grid-item tree"><img src="assets/img/organic farming/tree2.jpg" alt="" /></div>
+                            <div class="grid-item tree"><img src="assets/img/organic farming/tree2.jpg" alt="" /></div> -->
+                            
                             <div class="grid-item fest">
                                 <div class="cases-img">
                                     <a data-fancybox data-width="940" data-height="660"
