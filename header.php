@@ -155,26 +155,26 @@ background: linear-gradient(90deg, rgba(3,14,78,1) 0%, rgba(3,14,78,1) 100%, rgb
             aria-labelledby="myLargeModalLabel" aria-hidden="true" style="z-index: 100000;">
             <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
                 <div class="modal-content w-50 ">
-                    <div class="modal-header">
-                        <!-- <h3 class="modal-title " id="exampleModalLabel">Welcome, User!</h3> -->
+                    <div class="modal-header text-center  " style="background-color:#030E4E; ">
+                        <h3 class="modal-title text-white " style="width:95%;" id="exampleModalLabel" >SHRI SHRI ADIVASI GRAM VIKAS
+                            CHARITABLE TRUST </h3> 
 
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close text-white " data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
+                    <div class="modal-body p-4">
                         <div class="container-fluid">
-                            <div class="row d-flex justify-content-center  mb-4">
-                                <div class="" style="width: 300px;">
-                                    <img src="assets/img/logo/logo.jpeg" alt="" class="img-fluid">
-                                </div>
-                            </div>
+                            
                             <div class="col-lg-12 mx-auto">
                                 <form>
-                                    <div class="card">
-                                        <div class="card-body p-5  "
-                                            style="height: 500px; display: flex; flex-direction: column; justify-content: center;">
-                                            <p class="mb-3">Please Log in</p>
+                                    <div class="card p-3">
+                                        <div class="card-body "
+                                            style=" display: flex; flex-direction: column; justify-content: center;">
+                                            <div class="text-center ">
+                                                    <img src="assets/img/logo/logo_150.jpg" alt="" style="  width: 200px ; height: 200px;">
+                                                </div>
+                                            <p class="mb-3">Login</p>
                                             <div class="form-group">
                                                 <input type="text" placeholder="Email id"
                                                     class="form-control mb-3 custom-input">
