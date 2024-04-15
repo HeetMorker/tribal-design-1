@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title> Tribal Welfare</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo/favicon.jpg">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head> 
+<!-- loader script-->
+<script>
+    	function playAudio(a1,v1)
+	{
+
+		a1.src="assets/img/video/audio.mp3";
+		a1.play();
+		
+		setTimeout(function()
+		{
+			v1.pause();
+			a1.pause();
+			window.location="index.php";
+		},5000);
+		
+	}
+</script>
+<body>
+     <!-- loader -->
+        <div class="loader2">
+            <audio id="a1">
+            </audio>
+            <video class="loader-icon"muted autoplay playsinline onPlay="playAudio(a1,this)" >
+                <source src="assets/img/video/loader - Copy.mp4" type="video/mp4">
+            </video>
+            
+        </div>
+</body>
+</html>
